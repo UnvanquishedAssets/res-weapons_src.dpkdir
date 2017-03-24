@@ -4,7 +4,7 @@
 //   ======================================================================
 textures/citadel/sockter/torchflame
 {
-	qer_editorimage	textures/citadel/sockter/flame1_editor
+	qer_editorimage	textures/citadel/sockter/flame1_p
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm trans
