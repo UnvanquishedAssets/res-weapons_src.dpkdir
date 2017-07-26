@@ -37,7 +37,7 @@ floorFirePS
   {
     particle
     {
-      shader sync textures/citadel/sockter/torchflame
+      shader sync gfx/fire/torchflame
       displacement ~20 ~20 -1 ~0
 
       radius 0 4~4 8~6
@@ -58,7 +58,7 @@ floorFirePS
   {
     particle
     {
-      shader sync textures/citadel/sockter/torchflame
+      shader sync gfx/fire/torchflame
       displacement ~30 ~30 -1 ~0
 
       radius 0 4~4 8~6
