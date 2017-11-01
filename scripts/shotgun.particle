@@ -195,7 +195,7 @@ ShotgunMuzzleFlash
   {
     particle
     {
-      model models/weapons/shells/shotgun-shell.md3
+      model models/shells/shotgun/shell.md3
 
       displacement 5.5 0 -7 ~0.0
 
