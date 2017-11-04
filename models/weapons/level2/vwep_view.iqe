@@ -62,7 +62,7 @@ vertexarray blendindexes ubyte 4
 vertexarray blendweights ubyte 4
 
 mesh "Marauder"
-material "models/players/level2/mara_legs"
+material "models/players/level2/level2_legs"
 vp -28.0565948 -48.1686935 -36.4127655
 vn 0.727042913 0.686366677 -0.0175903626
 vx 0.156254083 -0.140458018 0.977679014 -1
