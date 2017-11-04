@@ -1,7 +1,7 @@
 gfx/grenade/flare_01
 {
 	{
-		map gfx/grenade/flare_01.tga
+		map gfx/grenade/flare_01
 		blendfunc add
 	}
 }
@@ -51,8 +51,8 @@ gfx/grenade/smoke
 
 models/weapons/grenade/grenade
 {
-	diffuseMap  models/weapons/grenade/grenade.tga
-	normalMap   models/weapons/grenade/grenade_n.tga
-	specularMap models/weapons/grenade/grenade_s.tga
+	diffuseMap  models/weapons/grenade/grenade
+	normalMap   models/weapons/grenade/grenade_n
+	specularMap models/weapons/grenade/grenade_s
 }
 
