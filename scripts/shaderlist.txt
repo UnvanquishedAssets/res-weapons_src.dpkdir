@@ -1,0 +1,17 @@
+blaster
+chaingun
+ckit
+firebomb
+fire
+flamer
+grenade
+lcannon
+lgun
+mdriver
+prifle
+psaw
+rifle
+rocket
+shotgun
+smg
+weapons
