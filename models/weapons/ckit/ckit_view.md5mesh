@@ -48,7 +48,7 @@ joints {
 
 mesh {
 	// meshes: rhand
-	shader "models/weapons/hand"
+	shader "models/weapons/legacy_hand"
 
 	numverts 537
 	vert 0 ( 0.700356 0.983985 ) 0 1
@@ -1822,7 +1822,7 @@ mesh {
 
 mesh {
 	// meshes: lhand
-	shader "models/weapons/hand"
+	shader "models/weapons/legacy_hand"
 
 	numverts 537
 	vert 0 ( 0.601679 0.937855 ) 0 1

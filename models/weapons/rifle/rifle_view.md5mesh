@@ -15566,7 +15566,7 @@ mesh {
 
 mesh {
 	// meshes: Left Arm
-	shader "models/weapons/hand2"
+	shader "models/weapons/hand"
 
 	numverts 856
 	vert 0 ( 0.466773 0.341256 ) 0 2
@@ -18859,7 +18859,7 @@ mesh {
 
 mesh {
 	// meshes: Right Arm
-	shader "models/weapons/hand2"
+	shader "models/weapons/hand"
 
 	numverts 856
 	vert 0 ( 0.466773 0.341256 ) 0 2

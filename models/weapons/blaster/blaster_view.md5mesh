@@ -31,7 +31,7 @@ joints {
 
 mesh {
 	// meshes: rhand
-	shader "models/weapons/hand"
+	shader "models/weapons/legacy_hand"
 
 	numverts 537
 	vert 0 ( 0.700356 0.983985 ) 0 1

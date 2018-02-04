@@ -100,7 +100,7 @@ vertexarray blendindexes ubyte 4
 vertexarray blendweights ubyte 4
 
 mesh "rhand"
-material "models/weapons/hand"
+material "models/weapons/legacy_hand"
 vp -7.02030039 -5.93917179 -10.5407791
 vn -0.373933047 -0.803014815 -0.464048833
 vx 0.618980289 0.156532541 -0.769649923 -1
@@ -3536,7 +3536,7 @@ fm 536 535 533
 fm 534 535 536
 
 mesh "lhand"
-material "models/weapons/hand"
+material "models/weapons/legacy_hand"
 vp -4.31468344 -13.2677584 -11.7464867
 vn -0.922862887 0.0915946737 -0.374078214
 vx -0.215195611 0.682892501 0.698103607 1
