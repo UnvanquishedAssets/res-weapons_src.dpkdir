@@ -4,7 +4,7 @@ LucyPuff
   {
     particle
     {
-      //shader sync flame3 flame4 flame5 flame6 flame7 flame8 flame9 flame10 flame11 flame12 flame13 flame14 flame15 flame16 flame17 flame18 flame19 flame20 flame21 flame22 flame23 flame24 flame25
+      //shader sync gfx/weapons/flamer/flame/flame02 gfx/weapons/flamer/flame/flame03 gfx/weapons/flamer/flame/flame04 gfx/weapons/flamer/flame/flame05 gfx/weapons/flamer/flame/flame06 gfx/weapons/flamer/flame/flame07 gfx/weapons/flamer/flame/flame08 gfx/weapons/flamer/flame/flame09 gfx/weapons/flamer/flame/flame10 gfx/weapons/flamer/flame/flame11 gfx/weapons/flamer/flame/flame12 gfx/weapons/flamer/flame/flame13 gfx/weapons/flamer/flame/flame14 gfx/weapons/flamer/flame/flame15 gfx/weapons/flamer/flame/flame16 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame21 gfx/weapons/flamer/flame/flame22 gfx/weapons/flamer/flame/flame23 gfx/weapons/flamer/flame/flame24
 
       displacement 0 0 0 ~3
 
@@ -32,7 +32,7 @@ LucyImpactBig
   {
     particle
     {
-      shader sync flame3 flame4 flame5 flame6 flame7 flame8 flame9 flame10 flame11 flame12 flame13 flame14 flame15 flame16 flame17 flame18 flame19 flame20 flame21 flame22 flame23 flame24 flame25
+      shader sync gfx/weapons/flamer/flame/flame02 gfx/weapons/flamer/flame/flame03 gfx/weapons/flamer/flame/flame04 gfx/weapons/flamer/flame/flame05 gfx/weapons/flamer/flame/flame06 gfx/weapons/flamer/flame/flame07 gfx/weapons/flamer/flame/flame08 gfx/weapons/flamer/flame/flame09 gfx/weapons/flamer/flame/flame10 gfx/weapons/flamer/flame/flame11 gfx/weapons/flamer/flame/flame12 gfx/weapons/flamer/flame/flame13 gfx/weapons/flamer/flame/flame14 gfx/weapons/flamer/flame/flame15 gfx/weapons/flamer/flame/flame16 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame21 gfx/weapons/flamer/flame/flame22 gfx/weapons/flamer/flame/flame23 gfx/weapons/flamer/flame/flame24
 
       displacement 0 0 11 ~10
 
@@ -64,7 +64,7 @@ LucyImpactBig
   {
     particle
     {
-      //shader sync gfx/weapons/legacy_spark
+      //shader sync gfx/weapons/tracer/spark
 
       displacement		0 0 0 ~0
 
@@ -96,7 +96,7 @@ LucyImpactBig
   {
     particle
     {
-      shader sync gfx/grenade/flare_01
+      shader sync gfx/weapons/grenade/flare
 
       displacement 0 0 8 ~0
 
@@ -115,7 +115,7 @@ LucyImpactBig
 
     particle
     {
-      shader sync gfx/weapons/luci_shockwave_haze
+      shader sync gfx/weapons/lcannon/shockwave_haze
 
       displacement 0 0 8 ~0
 
@@ -143,7 +143,7 @@ ImpactLucySmall
   {
     particle
     {
-      shader sync gfx/weapons/smoke
+      shader sync gfx/weapons/rifle/smoke
 
       displacement 0 0 0 ~4.0
       normalDisplacement  2.0~3.0
@@ -204,7 +204,7 @@ ImpactLucySmall
   {
     particle
     {
-      shader sync gfx/weapons/pulserifleimpact
+      shader sync gfx/weapons/prifle/impact
 
       displacement 0 0 0 ~1.5
       normalDisplacement  -2.0
@@ -235,7 +235,7 @@ ImpactLucySmall
   {
     particle
     {
-      shader sync gfx/weapons/luci_shockwave_haze_small
+      shader sync gfx/weapons/lcannon/shockwave_haze_small
 
       displacement 0 0 8 ~0
 

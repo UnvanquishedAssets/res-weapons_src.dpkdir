@@ -38,7 +38,7 @@ models/weapons/rifle/impactPS
   {
     particle
     {
-      shader sync gfx/rifle/verysmallrock
+      shader sync gfx/weapons/rifle/verysmallrock
 
       displacement 0 0 0 ~4.0
 
@@ -69,7 +69,7 @@ models/weapons/rifle/impactPS
   {
     particle
     {
-      shader sync gfx/weapons/legacy_smoke
+      shader sync gfx/weapons/rifle/legacy_smoke
 
       displacement 0 0 0 ~1.0
       normalDisplacement 3.0
@@ -101,7 +101,7 @@ models/weapons/rifle/impactPS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       normalDisplacement 3.0
 
@@ -135,7 +135,7 @@ models/weapons/rifle/muzzlePS
   {
     particle
     {
-      shader sync gfx/weapons/legacy_smoke
+      shader sync gfx/weapons/rifle/legacy_smoke
 
       displacement 0 0 0 ~0.0
 
@@ -202,7 +202,7 @@ models/weapons/shotgun/muzzlePS
   {
     particle
     {
-      shader sync gfx/weapons/legacy_smoke
+      shader sync gfx/weapons/rifle/legacy_smoke
 
       displacement 0 0 0 ~0.0
 
@@ -303,7 +303,7 @@ models/weapons/flamer/muzzlePS
   {
     particle
     {
-      shader sync flame3 flame4 flame5 flame6 flame7 flame8 flame9 flame10 flame11 flame12 flame13 flame14 flame15 flame16 flame17 flame18 flame19 flame20 flame21 flame22 flame23 flame24 flame25
+      shader sync gfx/weapons/flamer/flame/flame02 gfx/weapons/flamer/flame/flame03 gfx/weapons/flamer/flame/flame04 gfx/weapons/flamer/flame/flame05 gfx/weapons/flamer/flame/flame06 gfx/weapons/flamer/flame/flame07 gfx/weapons/flamer/flame/flame08 gfx/weapons/flamer/flame/flame09 gfx/weapons/flamer/flame/flame10 gfx/weapons/flamer/flame/flame11 gfx/weapons/flamer/flame/flame12 gfx/weapons/flamer/flame/flame13 gfx/weapons/flamer/flame/flame14 gfx/weapons/flamer/flame/flame15 gfx/weapons/flamer/flame/flame16 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame21 gfx/weapons/flamer/flame/flame22 gfx/weapons/flamer/flame/flame23 gfx/weapons/flamer/flame/flame24
       displacement 0 0 0 ~0.0
 
       parentVelocityFraction 0.65
@@ -366,7 +366,7 @@ models/weapons/blaster/missilePS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       displacement 0 0 0 ~2.0
 
@@ -471,7 +471,7 @@ models/weapons/lcannon/missilePS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       displacement 0 0 0 ~3.0
 
@@ -500,7 +500,7 @@ models/weapons/lcannon/secondaryMissilePS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       displacement 0 0 0 ~3.0
 
@@ -525,7 +525,7 @@ models/weapons/lcannon/impactPS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       radius 0 8.0 16.0
       alpha  0 1.0 0.0
@@ -545,7 +545,7 @@ models/weapons/lcannon/impactPS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       displacement 0 0 0 ~2.0
 
@@ -616,7 +616,7 @@ models/weapons/lcannon/secondaryImpactPS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       radius 0 8.0 16.0
       alpha  0 1.0 0.0
@@ -634,7 +634,7 @@ models/weapons/lcannon/secondaryImpactPS
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       displacement 0 0 0 ~2.0
 
@@ -670,7 +670,7 @@ models/weapons/psaw/impactPS
   {
     particle
     {
-      shader sync gfx/psaw/blue_particle
+      shader sync gfx/weapons/psaw/blue_particle
 
       displacement 0 0 0 ~2.0
 
@@ -698,13 +698,13 @@ models/weapons/psaw/impactPS
   }
 }
 
-models/weapons/lasgun/impactPS
+models/weapons/lgun/impactPS
 {
   ejector
   {
     particle
     {
-      shader sync gfx/lasgun/purple_particle
+      shader sync gfx/lgun/purple_particle
 
       displacement 0 0 0 ~2.0
       normalDisplacement  7.0
@@ -740,7 +740,7 @@ models/weapons/level3upg/impactPS
   {
     particle
     {
-      shader sync gfx/level3upg/barb_splash
+      shader sync gfx/weapons/level3upg/barb_splash
 
       displacement 0 0 0 ~8
 

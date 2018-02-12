@@ -16,492 +16,493 @@ models/weapons/flamer/flash
 }
 
 //   BEST FLAM THROEWR EVAR!
-flame1
+gfx/weapons/flamer/flame/flame00
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame00
+		map gfx/weapons/flamer/flame/flame00
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame10
+gfx/weapons/flamer/flame/flame01
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame09
+		map gfx/weapons/flamer/flame/flame01
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame11
+gfx/weapons/flamer/flame/flame02
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame10
+		map gfx/weapons/flamer/flame/flame02
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame12
+gfx/weapons/flamer/flame/flame03
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame11
+		map gfx/weapons/flamer/flame/flame03
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame13
+gfx/weapons/flamer/flame/flame04
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame12
+		map gfx/weapons/flamer/flame/flame04
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame14
+gfx/weapons/flamer/flame/flame05
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame13
+		map gfx/weapons/flamer/flame/flame05
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame15
+gfx/weapons/flamer/flame/flame06
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame14
+		map gfx/weapons/flamer/flame/flame06
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame16
+gfx/weapons/flamer/flame/flame07
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame15
+		map gfx/weapons/flamer/flame/flame07
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame17
+gfx/weapons/flamer/flame/flame08
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame16
+		map gfx/weapons/flamer/flame/flame08
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame18
+gfx/weapons/flamer/flame/flame09
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame17
+		map gfx/weapons/flamer/flame/flame09
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame19
+gfx/weapons/flamer/flame/flame10
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame18
+		map gfx/weapons/flamer/flame/flame10
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame2
+gfx/weapons/flamer/flame/flame11
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame01
+		map gfx/weapons/flamer/flame/flame11
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame20
+gfx/weapons/flamer/flame/flame12
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame19
+		map gfx/weapons/flamer/flame/flame12
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame21
+gfx/weapons/flamer/flame/flame13
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame20
+		map gfx/weapons/flamer/flame/flame13
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame22
+gfx/weapons/flamer/flame/flame14
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame21
+		map gfx/weapons/flamer/flame/flame14
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame23
+gfx/weapons/flamer/flame/flame15
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame22
+		map gfx/weapons/flamer/flame/flame15
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame24
+gfx/weapons/flamer/flame/flame16
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame23
+		map gfx/weapons/flamer/flame/flame16
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame25
+gfx/weapons/flamer/flame/flame17
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame24
+		map gfx/weapons/flamer/flame/flame17
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame3
+gfx/weapons/flamer/flame/flame18
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame02
+		map gfx/weapons/flamer/flame/flame18
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame4
+gfx/weapons/flamer/flame/flame19
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame03
+		map gfx/weapons/flamer/flame/flame19
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame5
+gfx/weapons/flamer/flame/flame20
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame04
+		map gfx/weapons/flamer/flame/flame20
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame6
+gfx/weapons/flamer/flame/flame21
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame05
+		map gfx/weapons/flamer/flame/flame21
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame7
+gfx/weapons/flamer/flame/flame22
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame06
+		map gfx/weapons/flamer/flame/flame22
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame8
+gfx/weapons/flamer/flame/flame23
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame07
+		map gfx/weapons/flamer/flame/flame23
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flame9
+gfx/weapons/flamer/flame/flame24
 {
 	nopicmip
 	cull disable
 	{
-		map gfx/flame/flame08
+		map gfx/weapons/flamer/flame/flame24
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer0
+// legacy flamer
+gfx/weapons/flamer/torch/torch00
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/0
+		map gfx/weapons/flamer/torch/torch00
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer1
+gfx/weapons/flamer/torch/torch01
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/1
+		map gfx/weapons/flamer/torch/torch01
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer10
+gfx/weapons/flamer/torch/torch02
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/10
+		map gfx/weapons/flamer/torch/torch02
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer11
+gfx/weapons/flamer/torch/torch03
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/11
+		map gfx/weapons/flamer/torch/torch03
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer12
+gfx/weapons/flamer/torch/torch04
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/12
+		map gfx/weapons/flamer/torch/torch04
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer13
+gfx/weapons/flamer/torch/torch05
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/13
+		map gfx/weapons/flamer/torch/torch05
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer14
+gfx/weapons/flamer/torch/torch06
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/14
+		map gfx/weapons/flamer/torch/torch06
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer15
+gfx/weapons/flamer/torch/torch07
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/15
+		map gfx/weapons/flamer/torch/torch07
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer16
+gfx/weapons/flamer/torch/torch08
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/16
+		map gfx/weapons/flamer/torch/torch08
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer17
+gfx/weapons/flamer/torch/torch09
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/17
+		map gfx/weapons/flamer/torch/torch09
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer18
+gfx/weapons/flamer/torch/torch10
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/18
+		map gfx/weapons/flamer/torch/torch10
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer19
+gfx/weapons/flamer/torch/torch11
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/19
+		map gfx/weapons/flamer/torch/torch11
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer2
+gfx/weapons/flamer/torch/torch12
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/2
+		map gfx/weapons/flamer/torch/torch12
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer20
+gfx/weapons/flamer/torch/torch13
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/20
+		map gfx/weapons/flamer/torch/torch13
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer21
+gfx/weapons/flamer/torch/torch14
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/21
+		map gfx/weapons/flamer/torch/torch14
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer22
+gfx/weapons/flamer/torch/torch15
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/22
+		map gfx/weapons/flamer/torch/torch15
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer23
+gfx/weapons/flamer/torch/torch16
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/23
+		map gfx/weapons/flamer/torch/torch16
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer3
+gfx/weapons/flamer/torch/torch17
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/3
+		map gfx/weapons/flamer/torch/torch17
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer4
+gfx/weapons/flamer/torch/torch18
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/4
+		map gfx/weapons/flamer/torch/torch18
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer5
+gfx/weapons/flamer/torch/torch19
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/5
+		map gfx/weapons/flamer/torch/torch19
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer6
+gfx/weapons/flamer/torch/torch20
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/6
+		map gfx/weapons/flamer/torch/torch20
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer7
+gfx/weapons/flamer/torch/torch21
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/7
+		map gfx/weapons/flamer/torch/torch21
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer8
+gfx/weapons/flamer/torch/torch22
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/8
+		map gfx/weapons/flamer/torch/torch22
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }
 
-flamer9
+gfx/weapons/flamer/torch/torch23
 {
 	cull none
 	entityMergable
 	{
-		map gfx/flamer/9
+		map gfx/weapons/flamer/torch/torch23
 		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
 	}
 }

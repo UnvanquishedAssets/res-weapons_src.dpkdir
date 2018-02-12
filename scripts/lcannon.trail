@@ -2,7 +2,7 @@ lucymuzzletrail
 {
   beam
   {
-    shader		gfx/weapons/lucy_fire1
+    shader		gfx/weapons/lcannon/fire
     segments		25
     width		1 3
     alpha 		1.0 0.0
@@ -17,7 +17,7 @@ lucymuzzletrail2
 {
   beam
   {
-    shader		gfx/weapons/lucy_fire1
+    shader		gfx/weapons/lcannon/fire
     segments		2
     width		1 8
     alpha 		1.0 0.0
@@ -32,7 +32,7 @@ lucymuzzletrail3
 {
   beam
   {
-    shader		gfx/weapons/lucy_fire1
+    shader		gfx/weapons/lcannon/fire
     segments		25
     width		1 1
     alpha 		1.0 0.0
@@ -47,7 +47,7 @@ lucyballtrail_primary
 {
   beam
   {
-    shader		gfx/weapons/lucytrail
+    shader		gfx/weapons/lcannon/trail
     segments		4
     width		8 0
     alpha 		1.0 0.0
@@ -62,7 +62,7 @@ lucyballtrail_secondary
 {
   beam
   {
-    shader		gfx/weapons/lucytrail
+    shader		gfx/weapons/lcannon/trail
     segments		4
     width		8 0
     alpha 		1.0 0.0

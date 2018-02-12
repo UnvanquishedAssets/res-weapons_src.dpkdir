@@ -1,8 +1,8 @@
-gfx/psaw/blue_particle
+gfx/weapons/psaw/blue_particle
 {
 	cull disable
 	{
-		map gfx/psaw/blue_particle
+		map gfx/weapons/psaw/blue_particle
 		blendFunc GL_ONE GL_ONE
 		alphaGen vertex
 		rgbGen vertex

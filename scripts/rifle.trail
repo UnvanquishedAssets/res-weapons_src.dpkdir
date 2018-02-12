@@ -2,7 +2,7 @@ rifleimpactpuff
 {
   beam
   {
-    shader		gfx/grenade/puff
+    shader		gfx/weapons/grenade/puff
     segments		3
     width		10 14
     alpha 		0.0 0.5

@@ -4,7 +4,7 @@ ImpactMassdriver
   {
     particle
     {
-      shader 2 gfx/weapons/glow_particle_1 gfx/weapons/glow_particle_2
+      shader 2 gfx/weapons/mdriver/glow_particle1 gfx/weapons/mdriver/glow_particle2
 
       displacement 0 0 0 ~0.0
 
@@ -40,7 +40,7 @@ MuzzleFlashMassdriver
   {
     particle
     {
-      shader sync gfx/weapons/massdriver_MF
+      shader sync gfx/weapons/mdriver/mf
 
       displacement 10 0 0 ~0.0
 

@@ -19,7 +19,7 @@ lucybullet
 {
 	cull disable
 	{
-		map gfx/weapons/lucybullet
+		map gfx/weapons/lcannon/bullet
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaGen vertex
 		rgbGen vertex

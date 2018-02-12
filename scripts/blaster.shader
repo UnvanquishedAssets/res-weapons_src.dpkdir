@@ -1,8 +1,8 @@
-gfx/blaster/orange_particle
+gfx/weapons/blaster/orange_particle
 {
 	cull disable
 	{
-		map gfx/blaster/orange_particle
+		map gfx/weapons/blaster/orange_particle
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaGen vertex
 		rgbGen vertex
@@ -38,11 +38,11 @@ MarkBlasterBullet
 	}
 }
 
-blasterbullet
+gfx/weapons/blaster/bullet
 {
 	cull disable
 	{
-		map gfx/weapons/blasterbullet
+		map gfx/weapons/blaster/bullet
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaGen vertex
 		rgbGen vertex

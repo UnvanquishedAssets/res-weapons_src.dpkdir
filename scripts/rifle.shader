@@ -1,8 +1,8 @@
-gfx/rifle/verysmallrock
+gfx/weapons/rifle/verysmallrock
 {
 	cull disable
 	{
-		map gfx/rifle/verysmallrock
+		map gfx/weapons/rifle/verysmallrock
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaGen vertex
 		rgbGen vertex
@@ -43,6 +43,17 @@ models/weapons/rifle/zsight
 	specularMap models/weapons/rifle/zsight_s
 }
 
+gfx/weapons/rifle/legacy_smoke
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/rifle/legacy_smoke
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen    vertex
+		alphaGen  vertex
+	}
+}
 
 MarkRifleBullet
 {

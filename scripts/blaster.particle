@@ -4,7 +4,7 @@ ImpactBlaster
   {
     particle
     {
-      shader sync blasterbullet
+      shader sync gfx/weapons/blaster/bullet
 
       displacement 0 0 0 ~2.0
       normalDisplacement  0.0
@@ -37,7 +37,7 @@ ImpactBlaster
   {
     particle
     {
-      shader sync blasterbullet
+      shader sync gfx/weapons/blaster/bullet
 
       displacement 0 0 0 0
       normalDisplacement  0.0
@@ -71,9 +71,9 @@ MuzzleFlashBlaster
   {
     particle
     {
-      //shader sync gfx/weapons/legacy_smoke
-	//shader sync gfx/grenade/smoke
-      shader sync gfx/weapons/blasterMF_2
+      //shader sync gfx/weapons/rifle/legacy_smoke
+	//shader sync gfx/weapons/grenade/smoke
+      shader sync gfx/weapons/blaster/mf2
 
       displacement 0 0 0 ~0.0
 
@@ -98,9 +98,9 @@ MuzzleFlashBlaster
     }
     particle
     {
-      //shader sync gfx/weapons/legacy_smoke
-	//shader sync gfx/grenade/smoke
-      shader sync gfx/weapons/blasterMF_1
+      //shader sync gfx/weapons/rifle/legacy_smoke
+	//shader sync gfx/weapons/grenade/smoke
+      shader sync gfx/weapons/blaster/mf1
 
       displacement 0 0 0 ~0.0
 

@@ -2,7 +2,7 @@ grenadepuff
 {
   beam
   {
-    shader		gfx/grenade/puff
+    shader		gfx/weapons/grenade/puff
     segments		16
     width		10 128
     alpha 		1.0 0.0

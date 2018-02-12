@@ -1,8 +1,8 @@
-shotgunsparks
+shotgun/sparks
 {
   beam
   {
-    shader		gfx/weapons/shotgunspark
+    shader		gfx/weapons/shotgun/spark
     segments		2
     width		0.15 0.15
     alpha 		1.0 0.0

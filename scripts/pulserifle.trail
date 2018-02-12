@@ -2,7 +2,7 @@ PulseRifleTrail
 {
   beam
   {
-    shader		gfx/weapons/pulserifletrail
+    shader		gfx/weapons/prifle/trail
     segments		4
     width		4 4
     alpha 		1.0 0.0
@@ -19,7 +19,7 @@ PulseRifleImpactBlobs
 {
   beam
   {
-    shader		gfx/weapons/pulserifletrail
+    shader		gfx/weapons/prifle/trail
     segments		4
     width		2 0.4
     alpha 		1.0 0.0

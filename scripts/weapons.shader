@@ -1,28 +1,28 @@
-gfx/weapons/blasterMF_1
+gfx/weapons/blaster/mf1
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/blasterMF_1
+		map gfx/weapons/blaster/mf1
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/blasterMF_2
+gfx/weapons/blaster/mf2
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/blasterMF_2
+		map gfx/weapons/blaster/mf2
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/flamerhaze
+gfx/weapons/flamer/haze
 {
 	cull none
 	entityMergable
@@ -30,81 +30,81 @@ gfx/weapons/flamerhaze
 	{
 		stage heathazeMap
 		deformMagnitude 4.0
-		map gfx/weapons/flamerhaze_n
+		map gfx/weapons/flamer/haze_n
 	}
 }
 
-gfx/weapons/flamersmoke
+gfx/weapons/flamer/smoke
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/flamersmoke
+		map gfx/weapons/flamer/smoke
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/flash
+gfx/weapons/rifle/flash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/flash
+		map gfx/weapons/rifle/flash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/flash_lgun
+gfx/weapons/lgun/flash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/flash_lgun
+		map gfx/weapons/lgun/flash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		//rgbGen vertex
 		//alphaGen vertex
 	}
 }
 
-gfx/weapons/flash_p
+gfx/weapons/prifle/flash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/flash_p
+		map gfx/weapons/prifle/flash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/glow_particle_1
+gfx/weapons/mdriver/glow_particle1
 {
 	cull disable
 	{
-		map gfx/weapons/glow_particle
+		map gfx/weapons/mdriver/glow_particle1
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/glow_particle_2
+gfx/weapons/mdriver/glow_particle2
 {
 	cull disable
 	{
-		map gfx/weapons/glow_particle2
+		map gfx/weapons/mdriver/glow_particle2
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/grenade_shockwave_haze
+gfx/weapons/grenade/shockwave_haze
 {
 	cull none
 	entityMergable
@@ -112,83 +112,83 @@ gfx/weapons/grenade_shockwave_haze
 	{
 		stage heathazeMap
 		deformMagnitude 5.0
-		map gfx/weapons/shockwave_n
+		map gfx/weapons/grenade/shockwave_n
 	}
 }
 
-gfx/weapons/lasgunspark1
+gfx/weapons/lgun/spark1
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lasgunspark1
+		map gfx/weapons/lgun/spark1
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/lasgunspark2
+gfx/weapons/lgun/spark2
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lasgunspark2
+		map gfx/weapons/lgun/spark2
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/lasgunspark3
+gfx/weapons/lgun/spark3
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lasgunspark3
+		map gfx/weapons/lgun/spark3
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/lasgunspark4
+gfx/weapons/lgun/spark4
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lasgunspark4
+		map gfx/weapons/lgun/spark4
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/lasgunspark5
+gfx/weapons/lgun/spark5
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lasgunspark5
+		map gfx/weapons/lgun/spark5
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/lasgunspark6
+gfx/weapons/lgun/spark6
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lasgunspark6
+		map gfx/weapons/lgun/spark6
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/luci_shockwave_haze
+gfx/weapons/lcannon/shockwave_haze
 {
 	cull none
 	entityMergable
@@ -196,11 +196,11 @@ gfx/weapons/luci_shockwave_haze
 	{
 		stage heathazeMap
 		deformMagnitude 5.0
-		map gfx/weapons/shockwave_n
+		map gfx/weapons/grenade/shockwave_n
 	}
 }
 
-gfx/weapons/luci_shockwave_haze_small
+gfx/weapons/lcannon/shockwave_haze_small
 {
 	cull none
 	entityMergable
@@ -208,124 +208,124 @@ gfx/weapons/luci_shockwave_haze_small
 	{
 		stage heathazeMap
 		deformMagnitude 3.0
-		map gfx/weapons/shockwave_n
+		map gfx/weapons/grenade/shockwave_n
 	}
 }
 
-gfx/weapons/lucy_fire1
+gfx/weapons/lcannon/fire
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lucy_fire1
+		map gfx/weapons/lcannon/fire
 		blendFunc GL_SRC_ALPHA GL_ONE
 		//rgbGen vertex
 		//alphaGen vertex
 	}
 }
 
-gfx/weapons/lucytrail
+gfx/weapons/lcannon/trail
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/lucytrail
+		map gfx/weapons/lcannon/trail
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/massdriver_MF
+gfx/weapons/mdriver/mf
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/massdriver_MF
+		map gfx/weapons/mdriver/mf
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/pulserifleimpact
+gfx/weapons/prifle/impact
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/pulserifleimpact
+		map gfx/weapons/prifle/impact
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/pulserifletrail
+gfx/weapons/prifle/trail
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/pulserifletrail
+		map gfx/weapons/prifle/trail
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/shotgunspark
+gfx/weapons/shotgun/spark
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/shotgunspark
+		map gfx/weapons/shotgun/spark
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/smoke
+gfx/weapons/rifle/smoke
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/smoke
+		map gfx/weapons/rifle/smoke
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/spiderflash
+gfx/weapons/rifle/spiderflash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/spiderflash
+		map gfx/weapons/rifle/spiderflash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/spiderflash_lgun
+gfx/weapons/lgun/spiderflash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/spiderflash_lgun
+		map gfx/weapons/lgun/spiderflash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		//rgbGen vertex
 		//alphaGen vertex
 	}
 }
 
-gfx/weapons/spiderflash_p
+gfx/weapons/prifle/spiderflash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/spiderflash_p
+		map gfx/weapons/prifle/spiderflash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex

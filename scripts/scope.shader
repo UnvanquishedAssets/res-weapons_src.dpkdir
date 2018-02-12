@@ -1,28 +1,28 @@
-scope
+gfx/weapons/scope
 {
 	{
-		clampmap gfx/2d/scope/zoom
+		clampmap gfx/weapons/scope/zoom
 		alphaGen vertex
 		blend blend
 	}
 	{
-		map gfx/2d/scope/bg
+		map gfx/weapons/scope/bg
 		alphaGen vertex
 		blend blend
 	}
 	{
-		map gfx/2d/scope/circle1
+		map gfx/weapons/scope/circle1
 		alphaGen vertex
 		blend blend
 	}
 	{
-		clampmap gfx/2d/scope/circle2
+		clampmap gfx/weapons/scope/circle2
 		alphaGen vertex
 		blend blend
 		tcMod rotate 45
 	}
 	{
-		clampmap gfx/2d/scope/crosshair
+		clampmap gfx/weapons/scope/crosshair
 		alphaGen vertex
 		blend blend
 	}

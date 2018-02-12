@@ -34,7 +34,7 @@ ejector
   {
     particle
     {
-      shader sync gfx/rifle/verysmallrock
+      shader sync gfx/weapons/rifle/verysmallrock
 
       displacement 0 0 0 ~2.0
 
@@ -65,7 +65,7 @@ ejector
   {
     particle
     {
-      shader sync gfx/weapons/smoke
+      shader sync gfx/weapons/rifle/smoke
 
       displacement 0 0 0 ~1.0
       normalDisplacement -30.0
@@ -97,7 +97,7 @@ ejector
   {
     particle
     {
-      shader sync gfx/blaster/orange_particle
+      shader sync gfx/weapons/blaster/orange_particle
 
       normalDisplacement 0.5
 
@@ -133,7 +133,7 @@ RifleMuzzleFlash
   {
     particle
     {
-      shader sync gfx/weapons/spiderflash
+      shader sync gfx/weapons/rifle/spiderflash
 
       displacement 6 0 0 ~0.0
 
@@ -158,7 +158,7 @@ RifleMuzzleFlash
     }
     particle
     {
-      shader sync gfx/weapons/flash
+      shader sync gfx/weapons/rifle/flash
 
       displacement 3 0 0 ~0.0
 
@@ -183,7 +183,7 @@ RifleMuzzleFlash
     }
     particle
     {
-      shader sync gfx/weapons/smoke
+      shader sync gfx/weapons/rifle/smoke
 
       displacement 0 0 0 ~0.0
 
