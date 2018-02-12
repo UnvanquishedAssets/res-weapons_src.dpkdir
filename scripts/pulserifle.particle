@@ -100,7 +100,7 @@ MuzzleFlashPulseRifle
   {
     particle
     {
-      //shader sync gfx/sprites/smoke
+      //shader sync gfx/weapons/legacy_smoke
 	//shader sync gfx/grenade/smoke
       shader sync gfx/weapons/spiderflash_p
 
@@ -127,7 +127,7 @@ MuzzleFlashPulseRifle
     }
     particle
     {
-      //shader sync gfx/sprites/smoke
+      //shader sync gfx/weapons/legacy_smoke
 	//shader sync gfx/grenade/smoke
       shader sync gfx/weapons/flash_p
 

@@ -95,7 +95,7 @@ models/weapons/grenade/impactPS
   {
     particle
     {
-      //shader sync gfx/sprites/spark
+      //shader sync gfx/weapons/legacy_spark
 
       displacement		0 0 0 ~0
 
