@@ -1,28 +1,28 @@
-gfx/marks/bullet_mrk
+gfx/weapons/lgun/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/bullet_mrk
+		map gfx/weapons/lgun/mark
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}
 }
 
-gfx/marks/burn_mrk
+gfx/weapons/flamer/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/burn_mrk
+		map gfx/weapons/flamer/mark
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}
 }
 
-gfx/marks/plasma_mrk
+gfx/weapons/level2upg/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/plasma_mrk
+		map gfx/weapons/level2upg/mark
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen vertex
 		alphaGen vertex

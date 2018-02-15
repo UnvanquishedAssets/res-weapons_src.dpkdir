@@ -38,11 +38,11 @@ models/weapons/prifle/zprifle
 	specularMap models/weapons/prifle/zprifle_s
 }
 
-MarkPulseRifleBullet
+gfx/weapons/prifle/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/mark_pulserifle
+		map gfx/weapons/prifle/mark
 		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex

@@ -15,13 +15,15 @@ models/weapons/shotgun/shotgun
 	specularMap models/weapons/shotgun/shotgun_s
 }
 
-MarkShotgunBullet
+gfx/weapons/shotgun/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/mark_shotgun
+		map gfx/weapons/shotgun/mark
 		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}
 }
+
+

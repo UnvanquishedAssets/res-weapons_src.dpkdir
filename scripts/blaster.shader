@@ -27,11 +27,11 @@ models/weapons/blaster/flash
 	}
 }
 
-MarkBlasterBullet
+gfx/weapons/blaster/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/mark_blaster
+		map gfx/weapons/blaster/mark
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen exactVertex
 		alphaGen vertex

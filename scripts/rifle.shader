@@ -55,11 +55,11 @@ gfx/weapons/rifle/legacy_smoke
 	}
 }
 
-MarkRifleBullet
+gfx/weapons/rifle/mark
 {
 	polygonOffset
 	{
-		map gfx/marks/mark_rifle
+		map gfx/weapons/rifle/mark
 		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
