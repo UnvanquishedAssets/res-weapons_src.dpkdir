@@ -48,3 +48,27 @@ gfx/weapons/blaster/bullet
 		rgbGen vertex
 	}
 }
+
+gfx/weapons/blaster/mf1
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/blaster/mf1
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
+gfx/weapons/blaster/mf2
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/blaster/mf2
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}

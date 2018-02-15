@@ -38,6 +38,30 @@ models/weapons/prifle/zprifle
 	specularMap models/weapons/prifle/zprifle_s
 }
 
+gfx/weapons/prifle/flash
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/prifle/flash
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
+gfx/weapons/prifle/spiderflash
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/prifle/spiderflash
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
 gfx/weapons/prifle/mark
 {
 	polygonOffset
@@ -46,5 +70,29 @@ gfx/weapons/prifle/mark
 		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
+	}
+}
+
+gfx/weapons/prifle/impact
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/prifle/impact
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
+gfx/weapons/prifle/trail
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/prifle/trail
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
 	}
 }

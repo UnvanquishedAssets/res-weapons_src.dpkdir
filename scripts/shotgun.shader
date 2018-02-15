@@ -26,4 +26,14 @@ gfx/weapons/shotgun/mark
 	}
 }
 
-
+gfx/weapons/shotgun/spark
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/shotgun/spark
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}

@@ -15,6 +15,30 @@ models/weapons/flamer/flash
 	}
 }
 
+gfx/weapons/flamer/haze
+{
+	cull none
+	entityMergable
+	implicitMapGL1 gfx/transparent
+	{
+		stage heathazeMap
+		deformMagnitude 4.0
+		map gfx/weapons/flamer/haze_n
+	}
+}
+
+gfx/weapons/flamer/smoke
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/flamer/smoke
+		blendFunc blend
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
 //   BEST FLAM THROEWR EVAR!
 gfx/weapons/flamer/flame/flame00
 {

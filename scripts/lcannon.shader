@@ -35,7 +35,56 @@ models/weapons/lcannon/pulse
 
 models/weapons/lcannon/tplcannon
 {
-  diffuseMap models/weapons/lcannon/tplcannon_d
-  normalMap models/weapons/lcannon/tplcannon_n
-  specularMap models/weapons/lcannon/tplcannon_s
+	diffuseMap models/weapons/lcannon/tplcannon_d
+	normalMap models/weapons/lcannon/tplcannon_n
+	specularMap models/weapons/lcannon/tplcannon_s
+}
+
+
+gfx/weapons/lcannon/shockwave_haze
+{
+	cull none
+	entityMergable
+	implicitMapGL1 gfx/transparent
+	{
+		stage heathazeMap
+		deformMagnitude 5.0
+		map gfx/weapons/grenade/shockwave_n
+	}
+}
+
+gfx/weapons/lcannon/shockwave_haze_small
+{
+	cull none
+	entityMergable
+	implicitMapGL1 gfx/transparent
+	{
+		stage heathazeMap
+		deformMagnitude 3.0
+		map gfx/weapons/grenade/shockwave_n
+	}
+}
+
+gfx/weapons/lcannon/fire
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/lcannon/fire
+		blendFunc GL_SRC_ALPHA GL_ONE
+		//rgbGen vertex
+		//alphaGen vertex
+	}
+}
+
+gfx/weapons/lcannon/trail
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/lcannon/trail
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
 }

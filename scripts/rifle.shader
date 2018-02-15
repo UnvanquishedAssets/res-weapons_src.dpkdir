@@ -54,6 +54,41 @@ gfx/weapons/rifle/legacy_smoke
 		alphaGen  vertex
 	}
 }
+gfx/weapons/rifle/smoke
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/rifle/smoke
+		blendFunc blend
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
+gfx/weapons/rifle/flash
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/rifle/flash
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
+
+gfx/weapons/rifle/spiderflash
+{
+	cull none
+	entityMergable
+	{
+		map gfx/weapons/rifle/spiderflash
+		blendFunc GL_SRC_ALPHA GL_ONE
+		rgbGen vertex
+		alphaGen vertex
+	}
+}
 
 gfx/weapons/rifle/mark
 {
