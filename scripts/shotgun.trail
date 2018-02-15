@@ -1,15 +1,15 @@
 shotgun/sparks
 {
-  beam
-  {
-    shader		gfx/weapons/shotgun/spark
-    segments		2
-    width		0.15 0.15
-    alpha 		1.0 0.0
-    segmentTime		75
-    fadeOutTime		8
-    textureType		stretch 1.0 0.0
+	beam
+	{
+		shader		gfx/weapons/shotgun/spark
+		segments		2
+		width		0.15 0.15
+		alpha 		1.0 0.0
+		segmentTime		75
+		fadeOutTime		8
+		textureType		stretch 1.0 0.0
 
-    //jitter 1 10
-  }
+		// jitter 1 10
+	}
 }

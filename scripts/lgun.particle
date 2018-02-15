@@ -1,154 +1,155 @@
 ImpactLasgun
 {
-  ejector
-  {
-    particle
-    {
-      shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
 
-      displacement 0 0 0 ~2.0
-      normalDisplacement  8.0
+			displacement 0 0 0 ~2.0
+			normalDisplacement  8.0
 
-      velocityType      normal
-      velocityDir       linear
-      velocityMagnitude 250
-      velocity          0 0 0 ~110
+			velocityType      normal
+			velocityDir       linear
+			velocityMagnitude 250
+			velocity          0 0 0 ~110
 
-      accelerationType      static
-      accelerationDir       linear
-      accelerationMagnitude 600
-      acceleration          0 0 -1 ~10
+			accelerationType      static
+			accelerationDir       linear
+			accelerationMagnitude 600
+			acceleration          0 0 -1 ~10
 
-      radius 0 8.0~2.0 1.0
-      alpha  0 1.0 0.0
-      rotation 0 0 -
-      bounce 0.8
+			radius 0 8.0~2.0 1.0
+			alpha  0 1.0 0.0
+			rotation 0 0 -
+			bounce 0.8
 
-      lifeTime 500
-    }
+			lifeTime 500
+		}
 
-    count 4~50%
-    delay 0
-    period 10 - ~0%
-  }
-  ejector
-  {
-    particle
-    {
-      shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
+		count 4~50%
+		delay 0
+		period 10 - ~0%
+	}
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
 
-      displacement 0 0 0 ~1.5
-      normalDisplacement  0.5
+			displacement 0 0 0 ~1.5
+			normalDisplacement  0.5
 
-      velocityType      normal
-      velocityDir       linear
-      velocityMagnitude 0
-      velocity          0 0 0 ~110
+			velocityType      normal
+			velocityDir       linear
+			velocityMagnitude 0
+			velocity          0 0 0 ~110
 
-      accelerationType      static
-      accelerationDir       linear
-      accelerationMagnitude 0
-      acceleration          0 0 -1 ~10
+			accelerationType      static
+			accelerationDir       linear
+			accelerationMagnitude 0
+			acceleration          0 0 -1 ~10
 
-      radius 0 25.0 10.0
-      alpha  0 1.0 0.0
-      rotation 0 0 -
-      bounce 0.0
+			radius 0 25.0 10.0
+			alpha  0 1.0 0.0
+			rotation 0 0 -
+			bounce 0.0
 
-      lifeTime 500
-    }
+			lifeTime 500
+		}
 
-    count 1
-    delay 0
-    period 10 - ~0%
-  }
-  ejector
-  {
-    particle
-    {
-      shader sync gfx/weapons/rifle/smoke
+		count 1
+		delay 0
+		period 10 - ~0%
+	}
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/rifle/smoke
 
-      displacement 0 0 0 ~4.0
-      normalDisplacement  2.0~3.0
+			displacement 0 0 0 ~4.0
+			normalDisplacement  2.0~3.0
 
-      velocityType      normal
-      velocityDir       linear
-      velocityMagnitude 15~30
-      velocity          0 0 1 0
+			velocityType      normal
+			velocityDir       linear
+			velocityMagnitude 15~30
+			velocity          0 0 1 0
 
-      accelerationType      static
-      accelerationDir       linear
-      accelerationMagnitude 20~10
-      acceleration          0 0 1 ~40
+			accelerationType      static
+			accelerationDir       linear
+			accelerationMagnitude 20~10
+			acceleration          0 0 1 ~40
 
-      radius 0 2.0 12.0~50%
-      alpha  0 0.6 0.0
-      rotation 0 ~360 -
-      bounce 0.0
+			radius 0 2.0 12.0~50%
+			alpha  0 0.6 0.0
+			rotation 0 ~360 -
+			bounce 0.0
 
-      lifeTime 500
-    }
-    count 8
-    delay 215
-    period 35 - ~0%
-  }
+			lifeTime 500
+		}
+		count 8
+		delay 215
+		period 35 - ~0%
+	}
 }
+
 MuzzleFlashLasgun
 {
  ejector
-  {
-    particle
-    {
-      shader sync gfx/weapons/lgun/spiderflash
+	{
+		particle
+		{
+			shader sync gfx/weapons/lgun/spiderflash
 
-      displacement 3 0 0 ~0.0
+			displacement 3 0 0 ~0.0
 
-      parentVelocityFraction 1.0
+			parentVelocityFraction 1.0
 
-      velocityType      cent
-      velocityDir       linear
-      velocityMagnitude 100
-      velocity          1 0 0 0
+			velocityType      cent
+			velocityDir       linear
+			velocityMagnitude 100
+			velocity          1 0 0 0
 
-      accelerationType      static
-      accelerationDir       linear
-      accelerationMagnitude 0
-      acceleration          0 0 0 0
+			accelerationType      static
+			accelerationDir       linear
+			accelerationMagnitude 0
+			acceleration          0 0 0 0
 
-      radius 0 1.0 4.0
-      alpha  0 0.4 0.0
-      rotation 0 ~360 -
-      bounce 0.0
+			radius 0 1.0 4.0
+			alpha  0 0.4 0.0
+			rotation 0 ~360 -
+			bounce 0.0
 
-      lifeTime 60
-    }
-    particle
-    {
-      shader sync gfx/weapons/lgun/flash
+			lifeTime 60
+		}
+		particle
+		{
+			shader sync gfx/weapons/lgun/flash
 
-      displacement 1 0 0 ~0.0
+			displacement 1 0 0 ~0.0
 
-      parentVelocityFraction 1.0
+			parentVelocityFraction 1.0
 
-      velocityType      cent
-      velocityDir       linear
-      velocityMagnitude 40
-      velocity          -1 0 0 0
+			velocityType      cent
+			velocityDir       linear
+			velocityMagnitude 40
+			velocity          -1 0 0 0
 
-      accelerationType      static
-      accelerationDir       linear
-      accelerationMagnitude 0
-      acceleration          0 0 0 0
+			accelerationType      static
+			accelerationDir       linear
+			accelerationMagnitude 0
+			acceleration          0 0 0 0
 
-      radius 0 4.0 2.0
-      alpha  0 1.0 0.0
-      rotation 0 0 -
-      bounce 0.0
+			radius 0 4.0 2.0
+			alpha  0 1.0 0.0
+			rotation 0 0 -
+			bounce 0.0
 
-      lifeTime 40
-    }
-    count 1
-    delay 0
-    period 0 - ~0%
-  }
+			lifeTime 40
+		}
+		count 1
+		delay 0
+		period 0 - ~0%
+	}
 }
