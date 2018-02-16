@@ -1,4 +1,4 @@
-ImpactPulseRifle
+particles/weapons/prifle/impact
 {
 	ejector
 	{
@@ -23,7 +23,7 @@ ImpactPulseRifle
 
 			lifeTime 500
 
-			childTrailSystem PulseRifleImpactBlobs
+			childTrailSystem trails/weapons/prifle/impact_blobs
 		}
 
 		count 1~2
@@ -93,7 +93,7 @@ ImpactPulseRifle
 	}
 }
 
-MuzzleFlashPulseRifle
+particles/weapons/prifle/muzzleflash
 {
 	ejector
 	{

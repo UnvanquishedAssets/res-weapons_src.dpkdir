@@ -1,4 +1,4 @@
-ImpactMassdriver
+particles/weapons/mdriver/impact
 {
 	ejector
 	{
@@ -34,7 +34,7 @@ ImpactMassdriver
 	}
 }
 
-MuzzleFlashMassdriver
+particles/weapons/mdriver/muzzleflash
 {
 	ejector
 	{

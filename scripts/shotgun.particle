@@ -1,4 +1,4 @@
-ImpactShotgun
+particles/weapons/shotgun/impact
 {
 	ejector
 	{
@@ -22,7 +22,7 @@ ImpactShotgun
 			rotation 0 0 50
 			lifeTime 150
 
-			childTrailSystem		rifleimpactpuff
+			childTrailSystem		trails/weapons/rifle/impact_puff
 		}
 
 		count 1
@@ -125,7 +125,7 @@ ImpactShotgun
 	}
 }
 
-ShotgunMuzzleFlash
+particles/weapons/shotgun/muzzleflash
 {
 	ejector
 	{
@@ -223,7 +223,7 @@ ShotgunMuzzleFlash
 	}
 }
 
-models/weapons/chaingun/muzzlePS
+particles/weapons/chaingun/muzzleflash
 {
 	ejector
 	{

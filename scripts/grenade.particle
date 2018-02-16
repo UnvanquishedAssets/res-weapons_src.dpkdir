@@ -1,4 +1,4 @@
-models/weapons/grenade/impactTrailPS2
+particles/weapons/grenade/impact_trail
 {
 	ejector
 	{
@@ -57,7 +57,7 @@ models/weapons/grenade/pufffire
 		period 50 - 0
 	}
 }
-models/weapons/grenade/impactPS
+particles/weapons/grenade/impact
 {
 	ejector
 	{
@@ -84,7 +84,7 @@ models/weapons/grenade/impactPS
 
 			lifeTime 500
 
-			childSystem models/weapons/grenade/impactTrailPS2
+			childSystem particles/weapons/grenade/impact_trail
 		}
 
 		count 2
@@ -116,7 +116,7 @@ models/weapons/grenade/impactPS
 			lifeTime 180
 
 			//childSystem models/weapons/grenade/pufffire
-			childTrailSystem		grenadepuff
+			childTrailSystem		trails/weapons/grenade/puff
 		}
 
 		count 10~50%

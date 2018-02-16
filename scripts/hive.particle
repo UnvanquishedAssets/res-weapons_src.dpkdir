@@ -1,4 +1,4 @@
-models/weapons/hive/missilePS
+particles/weapons/hive/missile
 {
 	ejector
 	{

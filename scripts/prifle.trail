@@ -1,4 +1,4 @@
-PulseRifleTrail
+trails/weapons/prifle/missile
 {
 	beam
 	{
@@ -15,7 +15,7 @@ PulseRifleTrail
 		jitter 1 10
 	}
 }
-PulseRifleImpactBlobs
+trails/weapons/prifle/impact_blobs
 {
 	beam
 	{

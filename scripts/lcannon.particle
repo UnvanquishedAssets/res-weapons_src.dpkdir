@@ -1,4 +1,4 @@
-LucyMissilePrimary
+particles/weapons/lcannon/missile_primary
 {
 	ejector
 	{
@@ -29,7 +29,7 @@ LucyMissilePrimary
 
 			dynamicLight    0 300 0 { 0.75 1.0 0.75 }
 
-			childTrailSystem		lucymuzzletrail
+			childTrailSystem		trails/weapons/lcannon/muzzleflash0
 		}
 		count infinite
 		delay 0
@@ -97,7 +97,7 @@ LucyPrimaryExtras
 	}
 }
 
-LucyMissileSecondary
+particles/weapons/lcannon/missile_secondary
 {
 	ejector
 	{
@@ -128,7 +128,7 @@ LucyMissileSecondary
 
 			dynamicLight    0 150 0 { 0.75 1.0 0.75 }
 
-			childTrailSystem		lucymuzzletrail2
+			childTrailSystem		trails/weapons/lcannon/muzzleflash1
 		}
 		count infinite
 		delay 0
@@ -136,7 +136,7 @@ LucyMissileSecondary
 	}
 }
 
-LucyImpactBig
+particles/weapons/lcannon/impact_big
 {
 	ejector
 	{
@@ -163,7 +163,7 @@ LucyImpactBig
 
 			lifeTime 500
 
-			//childSystem models/weapons/grenade/impactTrailPS2
+			//childSystem particles/weapons/grenade/impact_trail
 		}
 
 		count 2
@@ -195,7 +195,7 @@ LucyImpactBig
 			lifeTime 180
 
 			//childSystem models/weapons/grenade/pufffire
-			childTrailSystem		grenadepuff
+			childTrailSystem		trails/weapons/grenade/puff
 		}
 
 		count 10~50%
@@ -248,7 +248,7 @@ LucyImpactBig
 	}
 }
 
-ImpactLucySmall
+particles/weapons/lcannon/impact_small
 {
 	ejector
 	{
@@ -303,7 +303,7 @@ ImpactLucySmall
 
 			lifeTime 500
 
-			childTrailSystem PulseRifleImpactBlobs
+			childTrailSystem trails/weapons/prifle/impact_blobs
 
 		}
 

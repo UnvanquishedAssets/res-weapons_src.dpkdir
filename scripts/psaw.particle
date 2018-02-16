@@ -1,4 +1,4 @@
-models/weapons/psaw/impactPS
+particles/weapons/psaw/impact
 {
 	ejector
 	{

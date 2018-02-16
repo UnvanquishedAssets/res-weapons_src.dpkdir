@@ -1,4 +1,4 @@
-lucymuzzletrail
+trails/weapons/lcannon/muzzleflash0
 {
 	beam
 	{
@@ -14,7 +14,7 @@ lucymuzzletrail
 	}
 }
 
-lucymuzzletrail2
+trails/weapons/lcannon/muzzleflash1
 {
 	beam
 	{
@@ -30,7 +30,7 @@ lucymuzzletrail2
 	}
 }
 
-lucyballtrail_primary
+trails/weapons/lcannon/ball_primary
 {
 	beam
 	{
@@ -46,7 +46,7 @@ lucyballtrail_primary
 	}
 }
 
-lucyballtrail_secondary
+trails/weapons/lcannon/ball_secondary
 {
 	beam
 	{

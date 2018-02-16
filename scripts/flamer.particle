@@ -1,4 +1,4 @@
-MuzzleFlashFlamer
+particles/weapons/flamer/muzzleflash
 {
 	ejector // gravity sparks
 	{

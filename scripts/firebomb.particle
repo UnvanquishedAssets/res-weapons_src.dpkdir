@@ -1,4 +1,4 @@
-models/weapons/firebomb/impactPS
+particles/weapons/firebomb/impact
 {
 	ejector // fire nova
 	{
@@ -86,7 +86,7 @@ models/weapons/firebomb/impactPS
 	}
 }
 
-firebomb_subPS
+particles/weapons/firebomb/sub
 {
 	ejector
 	{

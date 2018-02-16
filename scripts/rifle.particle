@@ -1,4 +1,4 @@
-ImpactRifle
+particles/weapons/rifle/impact
 {
 	ejector
 	{
@@ -22,7 +22,7 @@ ImpactRifle
 			rotation 0 0 50
 			lifeTime 250
 
-			childTrailSystem	rifleimpactpuff
+			childTrailSystem	trails/weapons/rifle/impact_puff
 		}
 
 		count 1
@@ -125,7 +125,7 @@ ImpactRifle
 	}
 }
 
-RifleMuzzleFlash
+particles/weapons/rifle/muzzleflash
 {
 	ejector
 	{

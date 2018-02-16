@@ -1,4 +1,4 @@
-ImpactLasgun
+particles/weapons/lgun/impact
 {
 	ejector
 	{
@@ -94,7 +94,7 @@ ImpactLasgun
 	}
 }
 
-MuzzleFlashLasgun
+particles/weapons/lgun/muzzleflash
 {
  ejector
 	{
