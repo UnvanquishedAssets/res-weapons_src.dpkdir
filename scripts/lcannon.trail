@@ -19,22 +19,6 @@ lucymuzzletrail2
 	beam
 	{
 		shader		gfx/weapons/lcannon/fire
-		segments		2
-		width		1 8
-		alpha 		1.0 0.0
-		segmentTime		200
-		fadeOutTime		800
-		textureType		stretch 1.0 0.0
-
-		// jitter 1 10
-	}
-}
-
-lucymuzzletrail3
-{
-	beam
-	{
-		shader		gfx/weapons/lcannon/fire
 		segments		25
 		width		1 1
 		alpha 		1.0 0.0
