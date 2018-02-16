@@ -39,6 +39,16 @@ gfx/weapons/flamer/smoke
 	}
 }
 
+gfx/weapons/flamer/mark
+{
+	polygonOffset
+	{
+		map gfx/weapons/flamer/mark
+		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+		rgbGen exactVertex
+	}
+}
+
 //   BEST FLAM THROEWR EVAR!
 gfx/weapons/flamer/flame/flame00
 {

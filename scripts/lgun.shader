@@ -44,6 +44,16 @@ gfx/weapons/lgun/spiderflash
 	}
 }
 
+gfx/weapons/lgun/mark
+{
+	polygonOffset
+	{
+		map gfx/weapons/lgun/mark
+		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
+		rgbGen exactVertex
+	}
+}
+
 gfx/weapons/lgun/spark1
 {
 	cull none

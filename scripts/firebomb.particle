@@ -85,3 +85,38 @@ models/weapons/firebomb/impactPS
 		period 0 - ~0%
 	}
 }
+
+firebomb_subPS
+{
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/flamer/flame/flame02 gfx/weapons/flamer/flame/flame03 gfx/weapons/flamer/flame/flame04 gfx/weapons/flamer/flame/flame05 gfx/weapons/flamer/flame/flame06 gfx/weapons/flamer/flame/flame07 gfx/weapons/flamer/flame/flame08 gfx/weapons/flamer/flame/flame09 gfx/weapons/flamer/flame/flame10 gfx/weapons/flamer/flame/flame11 gfx/weapons/flamer/flame/flame12 gfx/weapons/flamer/flame/flame13 gfx/weapons/flamer/flame/flame14 gfx/weapons/flamer/flame/flame15 gfx/weapons/flamer/flame/flame16 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame21 gfx/weapons/flamer/flame/flame22 gfx/weapons/flamer/flame/flame23 gfx/weapons/flamer/flame/flame24
+
+			displacement 0 0 0 ~0
+
+			parentVelocityFraction 1.0
+
+			velocityType      static
+			velocityDir       linear
+			velocityMagnitude 0
+			velocity          0 0 0 ~0
+
+			accelerationType      cent
+			accelerationDir       point
+			accelerationMagnitude 2000
+
+			radius 0 5.0~50% 8.0~50%
+			alpha  0 1.0 0.0
+			rotation 0 ~360 -
+			bounce 0
+
+			lifeTime 1000
+		}
+
+		count 1
+		delay 0
+		period 0 - ~0%
+	}
+}
