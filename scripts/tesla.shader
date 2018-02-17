@@ -1,14 +1,14 @@
-models/ammo/tesla/tesla_bolt
+gfx/weapons/tesla/bolt
 {
 	cull disable
 	{
-		map models/ammo/tesla/tesla_bolt
+		map gfx/weapons/tesla/bolt
 		blendfunc add
 		rgbGen vertex
 		tcMod scroll 0.2 0
 	}
 	{
-		map models/ammo/tesla/tesla_bolt
+		map gfx/weapons/tesla/bolt
 		blendfunc add
 		rgbGen wave sin 0 1 0 5
 		tcMod scroll 0.5 0

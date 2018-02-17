@@ -2,7 +2,7 @@ trails/weapons/tesla/lightning
 {
 	beam
 	{
-		shader        models/ammo/tesla/tesla_bolt
+		shader        gfx/weapons/tesla/bolt
 
 		segments      9
 		width         8.0 8.0
@@ -16,7 +16,7 @@ trails/weapons/tesla/lightning
 
 	beam
 	{
-		shader        models/ammo/tesla/tesla_bolt
+		shader        gfx/weapons/tesla/bolt
 
 		segments      9
 		width         8.0 8.0
