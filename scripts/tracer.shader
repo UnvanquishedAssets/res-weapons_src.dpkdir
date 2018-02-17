@@ -1,13 +1,4 @@
-gfx/weapons/tracer
-{
-	cull none
-	{
-		map gfx/weapons/tracer/spark
-		blendFunc blend
-	}
-}
-
-gfx/weapons/tracer/spark
+gfx/weapons/tracer/tracer
 {
 	cull none
 	{
