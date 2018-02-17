@@ -49,24 +49,24 @@ gfx/weapons/blaster/bullet
 	}
 }
 
-gfx/weapons/blaster/mf1
+gfx/weapons/blaster/muzzleflash1
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/blaster/mf1
+		map gfx/weapons/blaster/muzzleflash1
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
 	}
 }
 
-gfx/weapons/blaster/mf2
+gfx/weapons/blaster/muzzleflash2
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/blaster/mf2
+		map gfx/weapons/blaster/muzzleflash2
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex

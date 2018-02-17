@@ -73,7 +73,7 @@ particles/weapons/blaster/muzzleflash
 		particle
 		{
 			//shader sync gfx/weapons/grenade/smoke
-			shader sync gfx/weapons/blaster/mf2
+			shader sync gfx/weapons/blaster/muzzleflash2
 
 			displacement 0 0 0 ~0.0
 
@@ -99,7 +99,7 @@ particles/weapons/blaster/muzzleflash
 		particle
 		{
 			//shader sync gfx/weapons/grenade/smoke
-			shader sync gfx/weapons/blaster/mf1
+			shader sync gfx/weapons/blaster/muzzleflash1
 
 			displacement 0 0 0 ~0.0
 

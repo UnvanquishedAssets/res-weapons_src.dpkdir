@@ -44,12 +44,12 @@ gfx/weapons/mdriver/glow_particle2
 	}
 }
 
-gfx/weapons/mdriver/mf
+gfx/weapons/mdriver/muzzleflash
 {
 	cull none
 	entityMergable
 	{
-		map gfx/weapons/mdriver/mf
+		map gfx/weapons/mdriver/muzzleflash
 		blendFunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 		alphaGen vertex
