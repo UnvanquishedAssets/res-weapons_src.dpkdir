@@ -72,7 +72,6 @@ particles/weapons/blaster/muzzleflash
 	{
 		particle
 		{
-			//shader sync gfx/weapons/rifle/legacy_smoke
 			//shader sync gfx/weapons/grenade/smoke
 			shader sync gfx/weapons/blaster/mf2
 
@@ -99,7 +98,6 @@ particles/weapons/blaster/muzzleflash
 		}
 		particle
 		{
-			//shader sync gfx/weapons/rifle/legacy_smoke
 			//shader sync gfx/weapons/grenade/smoke
 			shader sync gfx/weapons/blaster/mf1
 

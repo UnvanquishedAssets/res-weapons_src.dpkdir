@@ -43,17 +43,6 @@ models/weapons/rifle/zsight
 	specularMap models/weapons/rifle/zsight_s
 }
 
-gfx/weapons/rifle/legacy_smoke
-{
-	cull none
-	entityMergable
-	{
-		map gfx/weapons/rifle/legacy_smoke
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen    vertex
-		alphaGen  vertex
-	}
-}
 gfx/weapons/rifle/smoke
 {
 	cull none
