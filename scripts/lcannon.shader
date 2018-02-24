@@ -15,17 +15,6 @@ models/weapons/lcannon/skin
 	specularMap models/weapons/lcannon/skin_s
 }
 
-lucybullet
-{
-	cull disable
-	{
-		map gfx/weapons/lcannon/bullet
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		alphaGen vertex
-		rgbGen vertex
-	}
-}
-
 models/weapons/lcannon/pulse
 {
 	diffuseMap models/weapons/lcannon/pulse_d
@@ -40,6 +29,17 @@ models/weapons/lcannon/tplcannon
 	specularMap models/weapons/lcannon/tplcannon_s
 }
 
+
+gfx/weapons/lcannon/bullet
+{
+	cull disable
+	{
+		map gfx/weapons/lcannon/bullet
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaGen vertex
+		rgbGen vertex
+	}
+}
 
 gfx/weapons/lcannon/shockwave_haze
 {
