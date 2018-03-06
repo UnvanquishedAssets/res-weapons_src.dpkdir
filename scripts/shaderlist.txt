@@ -14,4 +14,3 @@ rifle
 rocket
 shotgun
 smg
-weapons
