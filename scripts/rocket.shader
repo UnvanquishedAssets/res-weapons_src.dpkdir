@@ -11,5 +11,5 @@ models/missiles/rocket/rocket
 	}
 	normalMap   models/missiles/rocket/rocket_n
 	specularMap models/missiles/rocket/rocket_s
-	glowMap     models/missiles/rocket/rocket_g
+	glowMap     models/missiles/rocket/rocket_a
 }
