@@ -1,6 +1,6 @@
 models/missiles/rocket/rocket
 {
-	qer_editorimage models/missiles/rocket/rocket_d
+	qer_editorImage models/missiles/rocket/rocket_d
 	cull                none
 	surfaceparm         trans
 

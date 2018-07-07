@@ -4,7 +4,7 @@
 //   ======================================================================
 gfx/weapons/flamer/fire/fire
 {
-	qer_editorimage	gfx/weapons/flamer/fire/fire_p
+	qer_editorImage	gfx/weapons/flamer/fire/fire_p
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	surfaceparm trans
