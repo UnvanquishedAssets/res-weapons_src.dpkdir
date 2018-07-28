@@ -1,9 +1,14 @@
 Unvanquished weapon models
---------------------------
+==========================
 
-This is a resource packages giving weapon models to the [Unvanquished](https://www.unvanquished.net) game.
+
+About
+-----
+
+This is a resource packages giving weapon models to the [Unvanquished](https://unvanquished.net) game project.
+
 
 Credits
 -------
 
-* The [Unvanquished team](https://unvanquished.net/?page_id=336)
+- The [Unvanquished team](https://unvanquished.net/?page_id=336)
