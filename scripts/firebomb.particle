@@ -13,8 +13,8 @@ particles/weapons/firebomb/impact
 			velocityMagnitude 0
 			velocity          0 0 0 0
 
-			radius 0 50.0~75% 450.0~75%
-			alpha  0 1.0 0.0
+			radius 0 50~75% 450~75%
+			alpha  0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -44,12 +44,12 @@ particles/weapons/firebomb/impact
 			accelerationMagnitude 10
 			acceleration          0 0 -1 0
 
-			radius 0 25.0~75% 75.0~75%
-			alpha  0 1.0 0.0
+			radius 0 25~75% 75~75%
+			alpha  0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
-			dynamicLight    0 1000 0 { 1.0 1.0 0.8 }
+			dynamicLight    0 1000 0 { 1 1 .8 }
 
 			lifeTime 500
 		}
@@ -73,9 +73,9 @@ particles/weapons/firebomb/impact
 			velocity          0 0 1 ~60
 
 			radius 0 0 300
-			alpha  0 1.0 0.0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500
 		}
@@ -96,7 +96,7 @@ particles/weapons/firebomb/sub
 
 			displacement 0 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      static
 			velocityDir       linear
@@ -107,8 +107,8 @@ particles/weapons/firebomb/sub
 			accelerationDir       point
 			accelerationMagnitude 2000
 
-			radius 0 5.0~50% 8.0~50%
-			alpha  0 1.0 0.0
+			radius 0 5~50% 8~50%
+			alpha  0 1 0
 			rotation 0 ~360 -
 			bounce 0
 

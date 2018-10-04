@@ -6,9 +6,9 @@ particles/weapons/mdriver/impact
 		{
 			shader 2 gfx/weapons/mdriver/glow_particle1 gfx/weapons/mdriver/glow_particle2
 
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			normalDisplacement 10.0
+			normalDisplacement 10
 
 			velocityType      normal
 			velocityDir       linear
@@ -20,15 +20,15 @@ particles/weapons/mdriver/impact
 			accelerationMagnitude 1000
 			acceleration          0 0 -1 ~20
 
-			radius 0 16.0 10.0
-			alpha  0 1.0 0.0
+			radius 0 16 10
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.5
+			bounce .5
 			lifeTime 750
 
 		}
 
-		count 1~5.0
+		count 1~5
 		delay 0
 		period 0 - ~0%
 	}
@@ -42,9 +42,9 @@ particles/weapons/mdriver/muzzleflash
 		{
 			shader sync gfx/weapons/mdriver/muzzleflash
 
-			displacement 10 0 0 ~0.0
+			displacement 10 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      static_transform
 			velocityDir       linear
@@ -56,10 +56,10 @@ particles/weapons/mdriver/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 13.0 8.0
-			alpha  0 1.0 0.0
+			radius 0 13 8
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 60
 		}

@@ -8,7 +8,7 @@ particles/weapons/rifle/impact
 
 			velocityType		normal
 			velocityDir		linear
-			velocityMagnitude		175~20.0
+			velocityMagnitude		175~20
 			velocity			0 0 0 ~10
 
 			accelerationType		static
@@ -17,7 +17,7 @@ particles/weapons/rifle/impact
 			acceleration		0 0 -1 0
 
 			radius 0 50 15
-			alpha 0 1.0 1.0
+			alpha 0 1 1
 			bounce 0
 			rotation 0 0 50
 			lifeTime 250
@@ -36,7 +36,7 @@ particles/weapons/rifle/impact
 		{
 			shader sync gfx/weapons/rifle/verysmallrock
 
-			displacement 0 0 0 ~2.0
+			displacement 0 0 0 ~2
 
 			velocityType      normal
 			velocityDir       linear
@@ -48,10 +48,10 @@ particles/weapons/rifle/impact
 			accelerationMagnitude 600
 			acceleration          0 0 -1 0
 
-			radius 0 1.5 0.5
-			alpha  0 1.0 0.0
+			radius 0 1.5 .5
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.7
+			bounce .7
 
 			lifeTime 350
 		}
@@ -67,8 +67,8 @@ particles/weapons/rifle/impact
 		{
 			shader sync gfx/weapons/rifle/smoke
 
-			displacement 0 0 0 ~1.0
-			normalDisplacement -30.0
+			displacement 0 0 0 ~1
+			normalDisplacement -30
 
 			velocityType      normal
 			velocityDir       linear
@@ -80,10 +80,10 @@ particles/weapons/rifle/impact
 			accelerationMagnitude 120
 			acceleration          0 0 -1 0
 
-			radius 0 0.0 50.0
-			alpha  0 0.4 0.0
+			radius 0 0 50
+			alpha  0 .4 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 575
 		}
@@ -99,7 +99,7 @@ particles/weapons/rifle/impact
 		{
 			shader sync gfx/weapons/blaster/orange_particle
 
-			normalDisplacement 0.5
+			normalDisplacement .5
 
 			velocityType      normal
 			velocityDir       linear
@@ -111,10 +111,10 @@ particles/weapons/rifle/impact
 			accelerationMagnitude 0
 			acceleration          0 0 -1 0
 
-			radius 0 10.0 6.0
-			alpha  0 1.0 0.0
+			radius 0 10 6
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 200
 		}
@@ -133,9 +133,9 @@ particles/weapons/rifle/muzzleflash
 		{
 			shader sync gfx/weapons/rifle/spiderflash
 
-			displacement 6 0 0 ~0.0
+			displacement 6 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -147,10 +147,10 @@ particles/weapons/rifle/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 5.0 3.0
-			alpha  0 0.4 0.0
+			radius 0 5 3
+			alpha  0 .4 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 50
 		}
@@ -158,9 +158,9 @@ particles/weapons/rifle/muzzleflash
 		{
 			shader sync gfx/weapons/rifle/flash
 
-			displacement 3 0 0 ~0.0
+			displacement 3 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -172,10 +172,10 @@ particles/weapons/rifle/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 7.0~2.0 4.0~1.0
-			alpha  0 1.0 0.0
+			radius 0 7~2 4~1
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 40
 		}
@@ -183,9 +183,9 @@ particles/weapons/rifle/muzzleflash
 		{
 			shader sync gfx/weapons/rifle/smoke
 
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			parentVelocityFraction 0.9
+			parentVelocityFraction .9
 
 			velocityType      static_transform
 			velocityDir       linear
@@ -197,10 +197,10 @@ particles/weapons/rifle/muzzleflash
 			accelerationMagnitude 50
 			acceleration          0 0 1 0
 
-			radius 0 5.0 10.0
-			alpha  0 0.5 0.0
+			radius 0 5 10
+			alpha  0 .5 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 300
 		}
@@ -216,23 +216,23 @@ particles/weapons/rifle/muzzleflash
 		{
 			model models/shells/rifle/shell.md3
 
-			displacement -10 0 0 ~0.5
+			displacement -10 0 0 ~.5
 
-			parentVelocityFraction 0.85
+			parentVelocityFraction .85
 
 			velocityType      static_transform
 			velocityDir       linear
 			velocityMagnitude 250~75
 			//250~75
-			velocity          0.5 -1 0.2 ~20
+			velocity          .5 -1 .2 ~20
 
 			accelerationType      static
 			accelerationDir       linear
 			accelerationMagnitude 800
 			acceleration          0 0 -1 0
 
-			radius 0 0.8 -
-			bounce 0.7
+			radius 0 .8 -
+			bounce .7
 
 			lifeTime 5000
 		}

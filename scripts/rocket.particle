@@ -18,8 +18,8 @@ particles/weapons/rocket/impact
 			accelerationMagnitude 100
 			acceleration          0 0 -1 0
 
-			radius                0 10.0~75% 30.0~75%
-			alpha                 400 1.0 0.0
+			radius                0 10~75% 30~75%
+			alpha                 400 1 0
 			rotation              0 ~360 -
 			bounce                0
 

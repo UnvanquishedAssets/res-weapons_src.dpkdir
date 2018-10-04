@@ -16,7 +16,7 @@ models/weapons/psaw/battery
 	{
 		map models/weapons/psaw/chain
 		blendfunc GL_ONE GL_ONE
-		tcMod scroll 0.04 -0.02
+		tcMod scroll .04 -.02
 	}
 }
 
@@ -27,7 +27,7 @@ models/weapons/psaw/chain
 	{
 		map models/weapons/psaw/chain
 		blendfunc GL_ONE GL_ONE
-		tcMod scroll 1.0 -4.0
+		tcMod scroll 1 -4
 	}
 }
 

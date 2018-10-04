@@ -6,7 +6,7 @@ particles/weapons/flamer/muzzleflash
 		{
 			shader sync gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame16
 
-			displacement 70 0 0 ~5.0
+			displacement 70 0 0 ~5
 
 			parentVelocityFraction 1
 
@@ -20,10 +20,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 500
 			acceleration          0 0 -1 ~30
 
-			radius 0 1.0 0.0
-			alpha  0 1 0.0
+			radius 0 1 0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 450
 		}
@@ -31,7 +31,7 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame16
-			displacement 110 0 0 ~5.0
+			displacement 110 0 0 ~5
 
 			parentVelocityFraction 1
 
@@ -45,10 +45,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 500
 			acceleration          0 0 -1 ~30
 
-			radius 0 1.0 0.0
-			alpha  0 1 0.0
+			radius 0 1 0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 500
 		}
@@ -56,7 +56,7 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame16
-			displacement 150 0 0 ~5.0
+			displacement 150 0 0 ~5
 
 			parentVelocityFraction 1
 
@@ -70,10 +70,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 500
 			acceleration          0 0 -1 ~30
 
-			radius 0 1.0 0.0
-			alpha  0 1 0.0
+			radius 0 1 0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 650
 		}
@@ -88,7 +88,7 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/smoke
-			displacement 70 0 0 ~3.0
+			displacement 70 0 0 ~3
 
 			parentVelocityFraction 1
 
@@ -102,10 +102,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 200
 			acceleration          0 0 1 ~0
 
-			radius 0 5.0 45.0
-			alpha  0 1 0.0
+			radius 0 5 45
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 600
 		}
@@ -113,7 +113,7 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/smoke
-			displacement 130 0 0 ~13.0
+			displacement 130 0 0 ~13
 
 			parentVelocityFraction 1
 
@@ -127,10 +127,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 225
 			acceleration          0 0 1 ~0
 
-			radius 0 0.0 45.0
-			alpha  0 1 0.0
+			radius 0 0 45
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 600
 		}
@@ -138,7 +138,7 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/haze
-			displacement 70 0 0 ~3.0
+			displacement 70 0 0 ~3
 
 			parentVelocityFraction 1
 
@@ -152,10 +152,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 200
 			acceleration          0 0 1 ~0
 
-			radius 0 5.0 45.0
-			alpha  0 1 0.0
+			radius 0 5 45
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 800
 		}
@@ -163,7 +163,7 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/haze
-			displacement 130 0 0 ~13.0
+			displacement 130 0 0 ~13
 
 			parentVelocityFraction 1
 
@@ -177,10 +177,10 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 225
 			acceleration          0 0 1 ~0
 
-			radius 0 0.0 45.0
-			alpha  0 1 0.0
+			radius 0 0 45
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.1
+			bounce .1
 
 			lifeTime 800
 		}
@@ -196,9 +196,9 @@ particles/weapons/flamer/muzzleflash
 		particle
 		{
 			shader sync gfx/weapons/flamer/torch/torch08 gfx/weapons/flamer/torch/torch08 gfx/weapons/flamer/torch/torch09 gfx/weapons/flamer/torch/torch10 gfx/weapons/flamer/torch/torch11 gfx/weapons/flamer/torch/torch12 gfx/weapons/flamer/torch/torch13 gfx/weapons/flamer/torch/torch14 gfx/weapons/flamer/torch/torch15 gfx/weapons/flamer/torch/torch16 gfx/weapons/flamer/torch/torch17 gfx/weapons/flamer/torch/torch18 gfx/weapons/flamer/torch/torch19 gfx/weapons/flamer/torch/torch20 gfx/weapons/flamer/torch/torch21 gfx/weapons/flamer/torch/torch22 gfx/weapons/flamer/torch/torch23
-			displacement 8 0 0 ~3.0
+			displacement 8 0 0 ~3
 
-			parentVelocityFraction 0.65 // keep synchronized with FLAMER_LAG
+			parentVelocityFraction .65 // keep synchronized with FLAMER_LAG
 
 			velocityType      cent
 			velocityDir       linear
@@ -210,12 +210,12 @@ particles/weapons/flamer/muzzleflash
 			accelerationMagnitude 70
 			acceleration          0 0 -1 ~0
 
-			radius 0 10.0 20.0
+			radius 0 10 20
 			alpha  0 1 0
 			rotation 0 320~80 320~80
-			bounce 0.01
+			bounce .01
 
-			dynamicLight    0 300 0 { 0.25 0.25 0.0 }
+			dynamicLight    0 300 0 { .25 .25 0 }
 
 			lifeTime 750                // keep synchronized with FLAMER_LIFETIME
 		}

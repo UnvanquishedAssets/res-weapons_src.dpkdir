@@ -4,9 +4,9 @@ particles/weapons/prifle/impact
 	{
 		particle
 		{
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			normalDisplacement  3.0
+			normalDisplacement  3
 
 			velocityType      normal //cent //tag
 			velocityDir       linear
@@ -18,8 +18,8 @@ particles/weapons/prifle/impact
 			accelerationMagnitude 800
 			acceleration          0 0 -1 0
 
-			radius 0 1.0 -
-			bounce 0.5
+			radius 0 1 -
+			bounce .5
 
 			lifeTime 500
 
@@ -37,7 +37,7 @@ particles/weapons/prifle/impact
 			shader sync gfx/weapons/prifle/impact
 
 			displacement 0 0 0 ~1.5
-			normalDisplacement  -2.0
+			normalDisplacement  -2
 
 			velocityType      normal
 			velocityDir       linear
@@ -49,10 +49,10 @@ particles/weapons/prifle/impact
 			accelerationMagnitude 0
 			acceleration          0 0 -1 ~10
 
-			radius 0 7.0 20.0
-			alpha  0 1.0 0.0
+			radius 0 7 20
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 150
 		}
@@ -67,8 +67,8 @@ particles/weapons/prifle/impact
 		{
 			shader sync gfx/weapons/rifle/smoke
 
-			displacement 0 0 0 ~4.0
-			normalDisplacement  2.0~3.0
+			displacement 0 0 0 ~4
+			normalDisplacement  2~3
 
 			velocityType      normal
 			velocityDir       linear
@@ -80,10 +80,10 @@ particles/weapons/prifle/impact
 			accelerationMagnitude 20~10
 			acceleration          0 0 1 ~40
 
-			radius 0 2.0 12.0~50%
-			alpha  0 0.6 0.0
+			radius 0 2 12~50%
+			alpha  0 .6 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500
 		}
@@ -102,9 +102,9 @@ particles/weapons/prifle/muzzleflash
 			//shader sync gfx/weapons/grenade/smoke
 			shader sync gfx/weapons/prifle/spiderflash
 
-			displacement 5 0 0 ~0.0
+			displacement 5 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -116,10 +116,10 @@ particles/weapons/prifle/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 7.0 2.0
-			alpha  0 0.4 0.0
+			radius 0 7 2
+			alpha  0 .4 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 60
 		}
@@ -128,9 +128,9 @@ particles/weapons/prifle/muzzleflash
 			//shader sync gfx/weapons/grenade/smoke
 			shader sync gfx/weapons/prifle/flash
 
-			displacement 3 0 0 ~0.0
+			displacement 3 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -142,10 +142,10 @@ particles/weapons/prifle/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 7.0 4.0
-			alpha  0 1.0 0.0
+			radius 0 7 4
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 40
 		}

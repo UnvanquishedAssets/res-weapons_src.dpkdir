@@ -6,8 +6,8 @@ particles/weapons/blaster/impact
 		{
 			shader sync gfx/weapons/blaster/bullet
 
-			displacement 0 0 0 ~2.0
-			normalDisplacement  0.0
+			displacement 0 0 0 ~2
+			normalDisplacement  0
 
 			velocityType      normal
 			velocityDir       linear
@@ -19,12 +19,12 @@ particles/weapons/blaster/impact
 			accelerationMagnitude 600
 			acceleration          0 0 -1 ~10
 
-			radius 0 1.5~1.5 0.0~1.5
-			alpha  0 1.0 0.0
+			radius 0 1.5~1.5 ~1.5
+			alpha  0 1 0
 			rotation 0 ~360 ~360
-			bounce 0.8
+			bounce .8
 
-			dynamicLight    0 100 0 { 0.25 0.25 0.8 }
+			dynamicLight    0 100 0 { .25 .25 .8 }
 
 			lifeTime 600
 		}
@@ -40,7 +40,7 @@ particles/weapons/blaster/impact
 			shader sync gfx/weapons/blaster/bullet
 
 			displacement 0 0 0 0
-			normalDisplacement  0.0
+			normalDisplacement  0
 
 			velocityType      normal
 			velocityDir       linear
@@ -52,10 +52,10 @@ particles/weapons/blaster/impact
 			accelerationMagnitude 0
 			acceleration          0 0 -1 ~10
 
-			radius 0 10.0 0.0
-			alpha  0 1.0 0.0
+			radius 0 10 0
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500
 		}
@@ -75,9 +75,9 @@ particles/weapons/blaster/muzzleflash
 			//shader sync gfx/weapons/grenade/smoke
 			shader sync gfx/weapons/blaster/muzzleflash2
 
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -89,10 +89,10 @@ particles/weapons/blaster/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 2.0 5.0
-			alpha  0 0.4 0.0
+			radius 0 2 5
+			alpha  0 .4 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 50
 		}
@@ -101,9 +101,9 @@ particles/weapons/blaster/muzzleflash
 			//shader sync gfx/weapons/grenade/smoke
 			shader sync gfx/weapons/blaster/muzzleflash1
 
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -115,10 +115,10 @@ particles/weapons/blaster/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 7.0 4.0
-			alpha  0 1.0 0.0
+			radius 0 7 4
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 30
 		}

@@ -19,15 +19,15 @@ particles/weapons/lcannon/missile_primary
 			//acceleration		0 -1 0 0
 			accelerationPoint -100 0 0 ~0
 
-			parentVelocityFraction 0.0
+			parentVelocityFraction 0
 
-			radius 0.0 1.0 -
-			alpha 0.0 1.0 1.0
-			bounce 0.0
-			rotation 0.0 0.0 -
-			lifeTime 1000.0
+			radius 0 1 -
+			alpha 0 1 1
+			bounce 0
+			rotation 0 0 -
+			lifeTime 1000
 
-			dynamicLight    0 300 0 { 0.75 1.0 0.75 }
+			dynamicLight    0 300 0 { .75 1 .75 }
 
 			childTrailSystem		trails/weapons/lcannon/muzzleflash0
 		}
@@ -41,15 +41,15 @@ particles/weapons/lcannon/missile_primary
 		{
 			//shader sync gfx/weapons/blaster/orange_particle
 
-			displacement		0 0 0 ~3.0
+			displacement		0 0 0 ~3
 
 			velocityType		static
 			velocityDir		linear
 			velocityMagnitude		500
 			velocity			0 0 1 ~360
 
-			radius 0 0.5 0.5
-			alpha 0 1.0 1.0
+			radius 0 .5 .5
+			alpha 0 1 1
 			bounce cull
 			rotation 0 0 -
 			lifeTime 550
@@ -69,9 +69,9 @@ LucyPrimaryExtras
 	{
 		particle
 		{
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			normalDisplacement  3.0
+			normalDisplacement  3
 
 			velocityType      static //cent //tag
 			velocityDir       linear
@@ -83,8 +83,8 @@ LucyPrimaryExtras
 			accelerationMagnitude 800
 			acceleration          0 0 -1 0
 
-			radius 0 1.0 -
-			bounce 0.5
+			radius 0 1 -
+			bounce .5
 
 			lifeTime 500
 
@@ -118,15 +118,15 @@ particles/weapons/lcannon/missile_secondary
 			//acceleration		0 -1 0 0
 			accelerationPoint -100 0 0 ~0
 
-			parentVelocityFraction 0.0
+			parentVelocityFraction 0
 
 			radius 0 50 15
-			alpha 0 1.0 1.0
+			alpha 0 1 1
 			bounce 0
 			rotation 0 0 50
 			lifeTime 400
 
-			dynamicLight    0 150 0 { 0.75 1.0 0.75 }
+			dynamicLight    0 150 0 { .75 1 .75 }
 
 			childTrailSystem		trails/weapons/lcannon/muzzleflash1
 		}
@@ -156,8 +156,8 @@ particles/weapons/lcannon/impact_big
 			accelerationMagnitude 10
 			acceleration          0 0 -1 0
 
-			radius 0 25.0~75% 75.0~75%
-			alpha  500 1.0 0.0
+			radius 0 25~75% 75~75%
+			alpha  500 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -189,7 +189,7 @@ particles/weapons/lcannon/impact_big
 			acceleration		0 0 -1 0
 
 			radius 0 50 15
-			alpha 0 1.0 1.0
+			alpha 0 1 1
 			bounce 0
 			rotation 0 0 50
 			lifeTime 180
@@ -216,9 +216,9 @@ particles/weapons/lcannon/impact_big
 			velocity          0 0 1 ~60
 
 			radius 0 0 150
-			alpha  0 1.0 0.0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 450
 		}
@@ -235,9 +235,9 @@ particles/weapons/lcannon/impact_big
 			velocity          0 0 1 ~60
 
 			radius 0 20 150
-			alpha  0 1.0 0.0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 250
 		}
@@ -256,8 +256,8 @@ particles/weapons/lcannon/impact_small
 		{
 			shader sync gfx/weapons/rifle/smoke
 
-			displacement 0 0 0 ~4.0
-			normalDisplacement  2.0~3.0
+			displacement 0 0 0 ~4
+			normalDisplacement  2~3
 
 			velocityType      normal
 			velocityDir       linear
@@ -269,10 +269,10 @@ particles/weapons/lcannon/impact_small
 			accelerationMagnitude 20~10
 			acceleration          0 0 1 ~40
 
-			radius 0 2.0 12.0~50%
-			alpha  0 0.6 0.0
+			radius 0 2 12~50%
+			alpha  0 .6 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500
 		}
@@ -284,9 +284,9 @@ particles/weapons/lcannon/impact_small
 	{
 		particle
 		{
-			displacement 0 0 0 ~0.0
+			displacement 0 0 0 ~0
 
-			normalDisplacement  3.0
+			normalDisplacement  3
 
 			velocityType      normal //cent //tag
 			velocityDir       linear
@@ -298,8 +298,8 @@ particles/weapons/lcannon/impact_small
 			accelerationMagnitude 800
 			acceleration          0 0 -1 0
 
-			radius 0 1.0 -
-			bounce 0.5
+			radius 0 1 -
+			bounce .5
 
 			lifeTime 500
 
@@ -318,7 +318,7 @@ particles/weapons/lcannon/impact_small
 			shader sync gfx/weapons/prifle/impact
 
 			displacement 0 0 0 ~1.5
-			normalDisplacement  -2.0
+			normalDisplacement  -2
 
 			velocityType      normal
 			velocityDir       linear
@@ -330,10 +330,10 @@ particles/weapons/lcannon/impact_small
 			accelerationMagnitude 0
 			acceleration          0 0 -1 ~10
 
-			radius 0 7.0 20.0
-			alpha  0 1.0 0.0
+			radius 0 7 20
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 150
 		}
@@ -356,9 +356,9 @@ particles/weapons/lcannon/impact_small
 			velocity          0 0 1 ~60
 
 			radius 0 5 50
-			alpha  0 1.0 0.0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 200
 		}

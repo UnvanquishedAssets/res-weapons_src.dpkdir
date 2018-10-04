@@ -11,7 +11,7 @@ gfx/weapons/grenade/puff
 	//nopicmip
 	cull disable
 	entityMergable
-	//deformVertexes wave 40 sin 0 0.1 0 0.5
+	//deformVertexes wave 40 sin 0 .1 0 .5
 	{
 		map gfx/weapons/grenade/puff
 		blendFunc blend
@@ -23,15 +23,15 @@ gfx/weapons/grenade/puff
 		blendfunc blend
 		rgbGen vertex
 		alphaGen vertex
-		tcMod turb 0 0.05 0 0.5
-		tcMod scroll -0.5 0.0
+		tcMod turb 0 .05 0 .5
+		tcMod scroll -.5 0
 	}
 	{
 		map gfx/weapons/grenade/fire
 		blendfunc blend
 		rgbGen vertex
 		alphaGen vertex
-		tcMod turb 0 0.05 0 0.5
+		tcMod turb 0 .05 0 .5
 		tcMod scroll -1 0
 	}
 }
@@ -43,7 +43,7 @@ gfx/weapons/grenade/shockwave_haze
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 5.0
+		deformMagnitude 5
 		map gfx/weapons/grenade/shockwave_n
 	}
 }
@@ -57,7 +57,7 @@ gfx/weapons/grenade/smoke
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
-		depthFade 30.0
+		depthFade 30
 	}
 }
 

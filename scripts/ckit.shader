@@ -11,12 +11,12 @@ models/weapons/ckit/rep_cyl
 	{
 		map models/weapons/ckit/rep_cyl
 		blendfunc add
-		tcMod scroll 0.2 0
+		tcMod scroll .2 0
 	}
 	{
 		map models/weapons/ckit/lines2
 		blendfunc add
-		tcMod scroll 0 -0.2
+		tcMod scroll 0 -.2
 	}
 }
 
@@ -28,7 +28,7 @@ models/weapons/ckit/screen
 	{
 		map models/weapons/ckit/scroll
 		blendfunc add
-		tcMod scroll 10 -0.4
+		tcMod scroll 10 -.4
 	}
 }
 

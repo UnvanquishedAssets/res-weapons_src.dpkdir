@@ -6,8 +6,8 @@ particles/weapons/lgun/impact
 		{
 			shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
 
-			displacement 0 0 0 ~2.0
-			normalDisplacement  8.0
+			displacement 0 0 0 ~2
+			normalDisplacement  8
 
 			velocityType      normal
 			velocityDir       linear
@@ -19,10 +19,10 @@ particles/weapons/lgun/impact
 			accelerationMagnitude 600
 			acceleration          0 0 -1 ~10
 
-			radius 0 8.0~2.0 1.0
-			alpha  0 1.0 0.0
+			radius 0 8~2 1
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.8
+			bounce .8
 
 			lifeTime 500
 		}
@@ -38,7 +38,7 @@ particles/weapons/lgun/impact
 			shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
 
 			displacement 0 0 0 ~1.5
-			normalDisplacement  0.5
+			normalDisplacement  .5
 
 			velocityType      normal
 			velocityDir       linear
@@ -50,10 +50,10 @@ particles/weapons/lgun/impact
 			accelerationMagnitude 0
 			acceleration          0 0 -1 ~10
 
-			radius 0 25.0 10.0
-			alpha  0 1.0 0.0
+			radius 0 25 10
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500
 		}
@@ -68,8 +68,8 @@ particles/weapons/lgun/impact
 		{
 			shader sync gfx/weapons/rifle/smoke
 
-			displacement 0 0 0 ~4.0
-			normalDisplacement  2.0~3.0
+			displacement 0 0 0 ~4
+			normalDisplacement  2~3
 
 			velocityType      normal
 			velocityDir       linear
@@ -81,10 +81,10 @@ particles/weapons/lgun/impact
 			accelerationMagnitude 20~10
 			acceleration          0 0 1 ~40
 
-			radius 0 2.0 12.0~50%
-			alpha  0 0.6 0.0
+			radius 0 2 12~50%
+			alpha  0 .6 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500
 		}
@@ -102,9 +102,9 @@ particles/weapons/lgun/muzzleflash
 		{
 			shader sync gfx/weapons/lgun/spiderflash
 
-			displacement 3 0 0 ~0.0
+			displacement 3 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -116,10 +116,10 @@ particles/weapons/lgun/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 1.0 4.0
-			alpha  0 0.4 0.0
+			radius 0 1 4
+			alpha  0 .4 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 60
 		}
@@ -127,9 +127,9 @@ particles/weapons/lgun/muzzleflash
 		{
 			shader sync gfx/weapons/lgun/flash
 
-			displacement 1 0 0 ~0.0
+			displacement 1 0 0 ~0
 
-			parentVelocityFraction 1.0
+			parentVelocityFraction 1
 
 			velocityType      cent
 			velocityDir       linear
@@ -141,10 +141,10 @@ particles/weapons/lgun/muzzleflash
 			accelerationMagnitude 0
 			acceleration          0 0 0 0
 
-			radius 0 4.0 2.0
-			alpha  0 1.0 0.0
+			radius 0 4 2
+			alpha  0 1 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 40
 		}

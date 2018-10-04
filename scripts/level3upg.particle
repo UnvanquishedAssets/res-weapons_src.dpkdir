@@ -18,10 +18,10 @@ particles/weapons/level3upg/impact
 			accelerationMagnitude 800
 			acceleration          0 0 -1 0
 
-			radius 0 3.0~2.0 0.0
-			alpha  0 1.0 1.0
+			radius 0 3~2 0
+			alpha  0 1 1
 			rotation 0 ~360 -
-			bounce 0.4~100%
+			bounce .4~100%
 
 			lifeTime 175
 		}

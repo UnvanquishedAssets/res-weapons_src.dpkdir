@@ -22,7 +22,7 @@ gfx/weapons/flamer/haze
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 4.0
+		deformMagnitude 4
 		map gfx/weapons/flamer/haze_n
 	}
 }

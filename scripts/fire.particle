@@ -19,10 +19,10 @@ particles/weapons/flamer/floorfire
 			accelerationMagnitude 10~10
 			acceleration          0 0 1 0
 
-			radius 0 10.0 30.0~50%
-			alpha  0 0.6~0.1 0.0
+			radius 0 10 30~50%
+			alpha  0 .6~.1 0
 			rotation ~360 ~360 -
-			bounce 0.01
+			bounce .01
 
 			lifeTime 1500~50%
 		}
@@ -41,9 +41,9 @@ particles/weapons/flamer/floorfire
 			displacement ~20 ~20 -1 ~0
 
 			radius 0 4~4 8~6
-			alpha  0 0.1~0.3 0
+			alpha  0 .1~.3 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500~60%
 		}
@@ -62,9 +62,9 @@ particles/weapons/flamer/floorfire
 			displacement ~30 ~30 -1 ~0
 
 			radius 0 4~4 8~6
-			alpha  0 0.1~0.3 0
+			alpha  0 .1~.3 0
 			rotation 0 0 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 500~60%
 		}

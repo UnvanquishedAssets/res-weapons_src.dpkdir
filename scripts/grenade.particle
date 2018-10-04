@@ -13,8 +13,8 @@ particles/weapons/grenade/impact_trail
 			velocityMagnitude 5
 			velocity          0 0 1 ~360
 
-			radius 0 105.0~75% 65.0~75%
-			alpha  0 0.6 0.0
+			radius 0 105~75% 65~75%
+			alpha  0 .6 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -44,8 +44,8 @@ models/weapons/grenade/pufffire
 			velocityMagnitude 5
 			velocity          0 0 1 ~360
 
-			radius 0 5.0~75% 5.0~75%
-			alpha  0 1.0 0.0
+			radius 0 5~75% 5~75%
+			alpha  0 1 0
 			rotation 0 ~360 -~2%
 			bounce 0
 
@@ -77,8 +77,8 @@ particles/weapons/grenade/impact
 			accelerationMagnitude 10
 			acceleration          0 0 -1 0
 
-			radius 0 25.0~75% 75.0~75%
-			alpha  500 1.0 0.0
+			radius 0 25~75% 75~75%
+			alpha  500 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -110,7 +110,7 @@ particles/weapons/grenade/impact
 			acceleration		0 0 -1 0
 
 			radius 0 50 15
-			alpha 0 1.0 1.0
+			alpha 0 1 1
 			bounce 0
 			rotation 0 0 50
 			lifeTime 180
@@ -137,9 +137,9 @@ particles/weapons/grenade/impact
 			velocity          0 0 1 ~60
 
 			radius 0 0 500
-			alpha  0 1.0 0.0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
 			lifeTime 550
 		}
@@ -155,11 +155,11 @@ particles/weapons/grenade/impact
 			velocity          0 0 1 ~60
 
 			radius 0 0 500
-			alpha  0 1.0 0.0
+			alpha  0 1 0
 			rotation 0 ~360 -
-			bounce 0.0
+			bounce 0
 
-			dynamicLight    0 1000 0 { 1.0 1.0 0.8 }
+			dynamicLight    0 1000 0 { 1 1 .8 }
 
 			lifeTime 500
 		}
