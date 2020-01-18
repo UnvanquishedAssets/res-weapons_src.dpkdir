@@ -1,3 +1,13 @@
+models/weapons/lgun/zlasgun
+{
+	qer_editorImage models/weapons/lgun/zlasgun_d
+	{
+		diffuseMap  models/weapons/lgun/zlasgun_d
+		normalMap   models/weapons/lgun/zlasgun_n
+		specularMap models/weapons/lgun/zlasgun_s
+	}
+}
+
 models/weapons/lgun/flash
 {
 	sort additive
@@ -10,14 +20,10 @@ models/weapons/lgun/flash
 
 models/weapons/lgun/grill
 {
-	diffuseMap models/weapons/lgun/grill
-}
-
-models/weapons/lgun/zlasgun
-{
-	diffuseMap models/weapons/lgun/zlasgun
-	normalMap models/weapons/lgun/zlasgun_n
-	specularMap models/weapons/lgun/zlasgun_s
+	qer_editorImage models/weapons/lgun/grill
+	{
+		diffuseMap  models/weapons/lgun/grill
+	}
 }
 
 gfx/weapons/lgun/flash

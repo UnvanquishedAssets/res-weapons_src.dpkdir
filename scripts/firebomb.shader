@@ -1,7 +1,10 @@
 models/weapons/firebomb/firebomb
 {
-	diffuseMap  models/weapons/firebomb/firebomb_d
-	normalMap   models/weapons/firebomb/firebomb_n
-	specularMap models/weapons/firebomb/firebomb_s
+	qer_editorImage models/weapons/firebomb/firebomb_d
+	{
+		diffuseMap  models/weapons/firebomb/firebomb_d
+		normalMap   models/weapons/firebomb/firebomb_n
+		specularMap models/weapons/firebomb/firebomb_s
+	}
 }
 

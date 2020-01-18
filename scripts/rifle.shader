@@ -1,3 +1,13 @@
+models/weapons/rifle/smg
+{
+	qer_editorImage models/weapons/rifle/smg_d
+	{
+		diffuseMap  models/weapons/rifle/smg_d
+		normalMap   models/weapons/rifle/smg_n
+		specularMap models/weapons/rifle/smg_s
+	}
+}
+
 gfx/weapons/rifle/verysmallrock
 {
 	cull disable
@@ -18,29 +28,6 @@ models/weapons/rifle/flash
 		tcMod rotate 3000
 		blendfunc GL_ONE GL_ONE
 	}
-}
-
-models/weapons/rifle/zrifle
-{
-	diffuseMap models/weapons/rifle/zrifle_d
-	normalMap models/weapons/rifle/zrifle_n
-	specularMap models/weapons/rifle/zrifle_s
-}
-
-models/weapons/rifle/zriflelens
-{
-	{
-		map models/weapons/rifle/lense
-		blendfunc add
-		tcGen environment
-	}
-}
-
-models/weapons/rifle/zsight
-{
-	diffuseMap models/weapons/rifle/zsight_d
-	normalMap models/weapons/rifle/zsight_n
-	specularMap models/weapons/rifle/zsight_s
 }
 
 gfx/weapons/rifle/smoke

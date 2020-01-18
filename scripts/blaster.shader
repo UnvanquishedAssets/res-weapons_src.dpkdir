@@ -1,20 +1,12 @@
-gfx/weapons/blaster/orange_particle
-{
-	cull disable
-	{
-		map gfx/weapons/blaster/orange_particle
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		alphaGen vertex
-		rgbGen vertex
-	}
-}
-
 models/weapons/blaster/blasterz
 {
-	diffuseMap models/weapons/blaster/blasterz_d
-	normalMap  models/weapons/blaster/blasterz_n
-	specularMap models/weapons/blaster/blasterz_s
-	glowMap     models/weapons/blaster/blaster_glow
+	qer_editorImage models/weapons/blaster/blasterz_d
+	{
+		diffuseMap  models/weapons/blaster/blasterz_d
+		normalMap   models/weapons/blaster/blasterz_n
+		specularMap models/weapons/blaster/blasterz_s
+		glowMap     models/weapons/blaster/blasterz_a
+	}
 }
 
 models/weapons/blaster/flash
@@ -24,6 +16,17 @@ models/weapons/blaster/flash
 	{
 		map	models/weapons/blaster/flash
 		blendfunc GL_ONE GL_ONE
+	}
+}
+
+gfx/weapons/blaster/orange_particle
+{
+	cull disable
+	{
+		map gfx/weapons/blaster/orange_particle
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaGen vertex
+		rgbGen vertex
 	}
 }
 

@@ -1,3 +1,13 @@
+models/weapons/grenade/grenade
+{
+	qer_editorImage models/weapons/grenade/grenade_d
+	{
+		diffuseMap  models/weapons/grenade/grenade_d
+		normalMap   models/weapons/grenade/grenade_n
+		specularMap models/weapons/grenade/grenade_s
+	}
+}
+
 gfx/weapons/grenade/flare
 {
 	{
@@ -60,11 +70,3 @@ gfx/weapons/grenade/smoke
 		depthFade 30
 	}
 }
-
-models/weapons/grenade/grenade
-{
-	diffuseMap  models/weapons/grenade/grenade
-	normalMap   models/weapons/grenade/grenade_n
-	specularMap models/weapons/grenade/grenade_s
-}
-

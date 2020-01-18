@@ -1,3 +1,11 @@
+models/weapons/chaingun/chaingun
+{
+	qer_editorImage models/weapons/chaingun/chaingun_d
+	{
+		diffuseMap  models/weapons/chaingun/chaingun_d
+	}
+}
+
 models/weapons/chaingun/flash
 {
 	sort additive
@@ -8,4 +16,3 @@ models/weapons/chaingun/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }
-

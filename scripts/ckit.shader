@@ -1,29 +1,36 @@
-models/weapons/ckit/demoncore
+models/weapons/ckit/weapon
 {
-	diffuseMap models/weapons/ckit/demoncore_d
-	normalMap models/weapons/ckit/demoncore_n
-	specularMap models/weapons/ckit/demoncore_s
+	qer_editorImage models/weapons/ckit/weapon_d
+	{
+		diffuseMap  models/weapons/ckit/weapon_d
+		normalMap   models/weapons/ckit/weapon_n
+		specularMap models/weapons/ckit/weapon_s
+	}
 }
 
-models/weapons/ckit/rep_cyl
+models/weapons/ckit/demoncore
 {
-	cull disable
+	qer_editorImage models/weapons/ckit/demoncore_d
 	{
-		map models/weapons/ckit/rep_cyl
-		blendfunc add
-		tcMod scroll .2 0
+		diffuseMap  models/weapons/ckit/demoncore_d
+		normalMap   models/weapons/ckit/demoncore_n
+		specularMap models/weapons/ckit/demoncore_s
 	}
+}
+
+models/weapons/ckit/screenbody
+{
+	qer_editorImage models/weapons/ckit/screenbody_d
 	{
-		map models/weapons/ckit/lines2
-		blendfunc add
-		tcMod scroll 0 -.2
+		diffuseMap  models/weapons/ckit/screenbody_d
 	}
 }
 
 models/weapons/ckit/screen
 {
+	qer_editorImage models/weapons/ckit/screen_d
 	{
-		map models/weapons/ckit/screen
+		diffuseMap  models/weapons/ckit/screen_d
 	}
 	{
 		map models/weapons/ckit/scroll
@@ -31,11 +38,3 @@ models/weapons/ckit/screen
 		tcMod scroll 10 -.4
 	}
 }
-
-models/weapons/ckit/weapon
-{
-	diffuseMap models/weapons/ckit/weapon_d
-	normalMap models/weapons/ckit/weapon_n
-	specularMap models/weapons/ckit/weapon_s
-}
-

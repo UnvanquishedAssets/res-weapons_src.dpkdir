@@ -13,4 +13,3 @@ psaw
 rifle
 rocket
 shotgun
-smg

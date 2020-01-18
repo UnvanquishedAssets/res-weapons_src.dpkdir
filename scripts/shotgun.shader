@@ -1,3 +1,13 @@
+models/weapons/shotgun/shotgun
+{
+	qer_editorImage models/weapons/shotgun/shotgun_d
+	{
+		diffuseMap  models/weapons/shotgun/shotgun_d
+		normalMap   models/weapons/shotgun/shotgun_n
+		specularMap models/weapons/shotgun/shotgun_s
+	}
+}
+
 models/weapons/shotgun/flash
 {
 	sort additive
@@ -6,13 +16,6 @@ models/weapons/shotgun/flash
 		map	models/weapons/shotgun/flash
 		blendfunc GL_ONE GL_ONE
 	}
-}
-
-models/weapons/shotgun/shotgun
-{
-	diffuseMap models/weapons/shotgun/shotgun_d
-	normalMap models/weapons/shotgun/shotgun_n
-	specularMap models/weapons/shotgun/shotgun_s
 }
 
 gfx/weapons/shotgun/mark

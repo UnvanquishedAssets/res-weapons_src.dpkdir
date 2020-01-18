@@ -1,3 +1,23 @@
+models/weapons/lcannon/pulse
+{
+	qer_editorImage models/weapons/lcannon/pulse_d
+	{
+		diffuseMap  models/weapons/lcannon/pulse_d
+		normalMap   models/weapons/lcannon/pulse_n
+		specularMap models/weapons/lcannon/pulse_s
+	}
+}
+
+models/weapons/lcannon/tplcannon
+{
+	qer_editorImage models/weapons/lcannon/tplcannon_d
+	{
+		diffuseMap  models/weapons/lcannon/tplcannon_d
+		normalMap   models/weapons/lcannon/tplcannon_n
+		specularMap models/weapons/lcannon/tplcannon_s
+	}
+}
+
 models/weapons/lcannon/flash
 {
 	sort additive
@@ -7,28 +27,6 @@ models/weapons/lcannon/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }
-
-models/weapons/lcannon/skin
-{
-	diffuseMap models/weapons/lcannon/skin_d
-	normalMap models/weapons/lcannon/skin_n
-	specularMap models/weapons/lcannon/skin_s
-}
-
-models/weapons/lcannon/pulse
-{
-	diffuseMap models/weapons/lcannon/pulse_d
-	normalMap models/weapons/lcannon/pulse_n
-	specularMap models/weapons/lcannon/pulse_s
-}
-
-models/weapons/lcannon/tplcannon
-{
-	diffuseMap models/weapons/lcannon/tplcannon_d
-	normalMap models/weapons/lcannon/tplcannon_n
-	specularMap models/weapons/lcannon/tplcannon_s
-}
-
 
 gfx/weapons/lcannon/bullet
 {

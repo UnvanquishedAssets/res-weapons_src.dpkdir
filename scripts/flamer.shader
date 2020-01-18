@@ -1,8 +1,11 @@
 models/weapons/flamer/flamer
 {
-	diffuseMap models/weapons/flamer/flamer_d
-	normalMap models/weapons/flamer/flamer_n
-	specularMap models/weapons/flamer/flamer_s
+	qer_editorImage models/weapons/flamer/flamer_d
+	{
+		diffuseMap  models/weapons/flamer/flamer_d
+		normalMap   models/weapons/flamer/flamer_n
+		specularMap models/weapons/flamer/flamer_s
+	}
 }
 
 models/weapons/flamer/flash
