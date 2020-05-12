@@ -43,104 +43,104 @@ gfx/weapons/lgun/mark
 	}
 }
 
-models/weapons/lg_EX1
+models/weapons/lgun/ex01
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex1
+		map models/weapons/lgun/ex01
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX2
+models/weapons/lgun/ex02
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex2
+		map models/weapons/lgun/ex02
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX3
+models/weapons/lgun/ex03
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex3
+		map models/weapons/lgun/ex03
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX4
+models/weapons/lgun/ex04
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex4
+		map models/weapons/lgun/ex04
 		blendFunc GL_ONE GL_ONE
 	}
 }
-models/weapons/lg_EX5
+models/weapons/lgun/ex05
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex5
+		map models/weapons/lgun/ex05
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX6
+models/weapons/lgun/ex06
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex6
+		map models/weapons/lgun/ex06
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX7
+models/weapons/lgun/ex07
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex7
+		map models/weapons/lgun/ex07
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX8
+models/weapons/lgun/ex08
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex8
+		map models/weapons/lgun/ex08
 		blendFunc GL_ONE GL_ONE
 	}
 }
-models/weapons/lg_EX9
+models/weapons/lgun/ex09
 {
 	sort additive
 	cull disable
 
 	{
-		map models/weapons/lgun/ex9
+		map models/weapons/lgun/ex09
 		blendFunc GL_ONE GL_ONE
 	}
 }
 
-models/weapons/lg_EX10
+models/weapons/lgun/ex10
 {
 	sort additive
 	cull disable
@@ -151,7 +151,7 @@ models/weapons/lg_EX10
 	}
 }
 
-models/weapons/lg_EX11
+models/weapons/lgun/ex11
 {
 	sort additive
 	cull disable
@@ -162,7 +162,7 @@ models/weapons/lg_EX11
 	}
 }
 
-models/weapons/lg_EX12
+models/weapons/lgun/ex12
 {
 	sort additive
 	cull disable
