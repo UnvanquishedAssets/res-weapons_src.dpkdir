@@ -1,18 +1,13 @@
 models/weapons/lgun/lgun
 {
-	diffuseMap models/weapons/lgun/lgun_d
-	normalMap models/weapons/lgun/lgun_n
-	specularMap models/weapons/lgun/lgun_s
 	{
-		stage specularMap
-		map models/weapons/lgun/lgun_s
+		diffuseMap models/weapons/lgun/lgun_d
+		normalMap models/weapons/lgun/lgun_n
+		specularMap models/weapons/lgun/lgun_s
 		specularExponentMin 10
 		specularExponentMax 25
+		glowMap models/weapons/lgun/lgun_e
 	}
-	{
-		map models/weapons/lgun/lgun_e
-		blendfunc add
-	}	
 }
 
 models/weapons/lgun/display
