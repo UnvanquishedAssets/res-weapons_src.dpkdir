@@ -100,7 +100,7 @@ particles/weapons/lgun/muzzleflash
 	{
 		particle
 		{
-			shader sync models/weapons/lg_EX1 models/weapons/lg_EX2 models/weapons/lg_EX3 models/weapons/lg_EX4 models/weapons/lg_EX5 models/weapons/lg_EX6 models/weapons/lg_EX7 models/weapons/lg_EX8 models/weapons/lg_EX9 models/weapons/lg_EX10 models/weapons/lg_EX11 models/weapons/lg_EX12
+			shader sync models/weapons/lgun/ex01 models/weapons/lgun/ex02 models/weapons/lgun/ex03 models/weapons/lgun/ex04 models/weapons/lgun/ex05 models/weapons/lgun/ex06 models/weapons/lgun/ex07 models/weapons/lgun/ex08 models/weapons/lgun/ex09 models/weapons/lgun/ex10 models/weapons/lgun/ex11 models/weapons/lgun/ex12
 
 			displacement 0 0 0 0
 		
