@@ -96,57 +96,30 @@ particles/weapons/lgun/impact
 
 particles/weapons/lgun/muzzleflash
 {
- ejector
+	ejector
 	{
 		particle
 		{
-			shader sync gfx/weapons/lgun/spiderflash
+			shader sync models/weapons/lg_EX1 models/weapons/lg_EX2 models/weapons/lg_EX3 models/weapons/lg_EX4 models/weapons/lg_EX5 models/weapons/lg_EX6 models/weapons/lg_EX7 models/weapons/lg_EX8 models/weapons/lg_EX9 models/weapons/lg_EX10 models/weapons/lg_EX11 models/weapons/lg_EX12
 
-			displacement 3 0 0 ~0
-
-			parentVelocityFraction 1
-
-			velocityType      cent
-			velocityDir       linear
-			velocityMagnitude 100
-			velocity          1 0 0 0
-
-			accelerationType      static
-			accelerationDir       linear
+			displacement 0 0 0 0
+		
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType cent
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 0 0
-
-			radius 0 1 4
-			alpha  0 .4 0
+			acceleration 0 0 0 0
+			parentVelocityFraction 1
+		
+			radius 0 .4 6
+			alpha  0 1 1
 			rotation 0 ~360 -
 			bounce 0
 
-			lifeTime 60
-		}
-		particle
-		{
-			shader sync gfx/weapons/lgun/flash
-
-			displacement 1 0 0 ~0
-
-			parentVelocityFraction 1
-
-			velocityType      cent
-			velocityDir       linear
-			velocityMagnitude 40
-			velocity          -1 0 0 0
-
-			accelerationType      static
-			accelerationDir       linear
-			accelerationMagnitude 0
-			acceleration          0 0 0 0
-
-			radius 0 4 2
-			alpha  0 1 0
-			rotation 0 0 -
-			bounce 0
-
-			lifeTime 40
+			lifeTime 70
 		}
 		count 1
 		delay 0
