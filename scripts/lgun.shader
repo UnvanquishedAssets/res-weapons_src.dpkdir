@@ -6,7 +6,7 @@ models/weapons/lgun/lgun
 		specularMap models/weapons/lgun/lgun_s
 		specularExponentMin 10
 		specularExponentMax 25
-		glowMap models/weapons/lgun/lgun_e
+		glowMap models/weapons/lgun/lgun_a
 	}
 }
 
