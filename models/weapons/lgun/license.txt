@@ -1,0 +1,22 @@
+======================================Unvanquished Lasgun=================*
+Date: 11.07.2016 (DD:MM:YYYY)
+Format: iqm
+Tris: 4956
+
+Textures: Diffuse,Normal,Specular-Gloss,Glow
+Size: 2048px
+
+Animations: idle,fire,raise,lower
+
+FX Txtures: EX(N),display(N)
+Size: 512px
+
+Sounds: shot.wav
+
+Author: chris807 contact: cgart.chris807[at]gmail.com | www.chris807.com
+License: model, textures and sounds licensed under CC BY-SA 4.0
+
+Note: This information has to be included if you redistribute theses assets.
+Place this file near the assets or append this text to your own 
+license/readme file. Thanks.
+===========================================================================*
