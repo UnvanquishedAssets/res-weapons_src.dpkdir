@@ -1,5 +1,37 @@
 particles/weapons/flamer/floorfire
 {
+	// heat haze
+	ejector
+	{
+		particle
+		{
+			shader sync gfx/weapons/flamer/haze
+
+			displacement ~15 ~15 5 ~0
+
+			velocityType      static
+			velocityDir       linear
+			velocityMagnitude 0
+			velocity          0 0 1 ~60
+
+			accelerationType      static
+			accelerationDir       linear
+			accelerationMagnitude 10~10
+			acceleration          0 0 1 0
+
+			radius 0 5 45
+			alpha  0 .6~.1 0
+			rotation ~360 ~360 -
+			bounce .01
+
+			lifeTime 1500~50%
+		}
+
+		count infinite
+		delay 0
+		period 500 - ~50%
+	}
+
 	// smoke
 	ejector
 	{
@@ -38,12 +70,14 @@ particles/weapons/flamer/floorfire
 		particle
 		{
 			shader sync gfx/weapons/flamer/fire/fire
-			displacement ~20 ~20 -1 ~0
+			displacement ~12 ~12 -1 ~0
 
 			radius 0 4~4 8~6
 			alpha  0 .1~.3 0
 			rotation 0 0 -
 			bounce 0
+
+			dynamicLight 0 50 0 { .25 .25 0 }
 
 			lifeTime 500~60%
 		}
@@ -59,12 +93,14 @@ particles/weapons/flamer/floorfire
 		particle
 		{
 			shader sync gfx/weapons/flamer/fire/fire
-			displacement ~30 ~30 -1 ~0
+			displacement ~27 ~27 -1 ~0
 
 			radius 0 4~4 8~6
 			alpha  0 .1~.3 0
 			rotation 0 0 -
 			bounce 0
+
+			dynamicLight 0 50 0 { .25 .25 0 }
 
 			lifeTime 500~60%
 		}

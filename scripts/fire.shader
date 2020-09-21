@@ -1,7 +1,3 @@
-//   ======================================================================
-//   Placeholder for fire caused by flamer & firebomb
-//   Wall Torch Stuff - Thanks to Sockter / dasprid
-//   ======================================================================
 gfx/weapons/flamer/fire/fire
 {
 	qer_editorImage	gfx/weapons/flamer/fire/fire_p
@@ -13,8 +9,7 @@ gfx/weapons/flamer/fire/fire
 	cull none
 	sort nearest
 	{
-		animMap 10 gfx/weapons/flamer/fire/fire1 gfx/weapons/flamer/fire/fire2 gfx/weapons/flamer/fire/fire3 gfx/weapons/flamer/fire/fire4 gfx/weapons/flamer/fire/fire5 gfx/weapons/flamer/fire/fire6 gfx/weapons/flamer/fire/fire7 gfx/weapons/flamer/fire/fire8
+		animMap 12 gfx/weapons/flamer/fire/fire1 gfx/weapons/flamer/fire/fire2 gfx/weapons/flamer/fire/fire3 gfx/weapons/flamer/fire/fire4 gfx/weapons/flamer/fire/fire5 gfx/weapons/flamer/fire/fire6 gfx/weapons/flamer/fire/fire7 gfx/weapons/flamer/fire/fire8
 		blendFunc GL_ONE GL_ONE
 	}
 }
-
