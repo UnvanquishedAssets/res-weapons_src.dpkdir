@@ -1,6 +1,7 @@
 models/weapons/ckit/weapon
 {
 	qer_editorImage models/weapons/ckit/weapon_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/ckit/weapon_d
 		normalMap   models/weapons/ckit/weapon_n
@@ -11,6 +12,7 @@ models/weapons/ckit/weapon
 models/weapons/ckit/demoncore
 {
 	qer_editorImage models/weapons/ckit/demoncore_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/ckit/demoncore_d
 		normalMap   models/weapons/ckit/demoncore_n
@@ -21,6 +23,7 @@ models/weapons/ckit/demoncore
 models/weapons/ckit/screenbody
 {
 	qer_editorImage models/weapons/ckit/screenbody_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/ckit/screenbody_d
 	}
@@ -29,6 +32,7 @@ models/weapons/ckit/screenbody
 models/weapons/ckit/screen
 {
 	qer_editorImage models/weapons/ckit/screen_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/ckit/screen_d
 	}

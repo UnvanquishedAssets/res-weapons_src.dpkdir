@@ -1,6 +1,7 @@
 models/weapons/lcannon/pulse
 {
 	qer_editorImage models/weapons/lcannon/pulse_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/lcannon/pulse_d
 		normalMap   models/weapons/lcannon/pulse_n
@@ -11,6 +12,7 @@ models/weapons/lcannon/pulse
 models/weapons/lcannon/tplcannon
 {
 	qer_editorImage models/weapons/lcannon/tplcannon_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/lcannon/tplcannon_d
 		normalMap   models/weapons/lcannon/tplcannon_n
@@ -22,6 +24,7 @@ models/weapons/lcannon/flash
 {
 	sort additive
 	cull disable
+	imageMinDimension 128
 	{
 		map	models/weapons/lcannon/flash
 		blendfunc GL_ONE GL_ONE
@@ -31,6 +34,7 @@ models/weapons/lcannon/flash
 gfx/weapons/lcannon/bullet
 {
 	cull disable
+	imageMinDimension 128
 	{
 		map gfx/weapons/lcannon/bullet
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -43,6 +47,7 @@ gfx/weapons/lcannon/shockwave_haze
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
@@ -55,6 +60,7 @@ gfx/weapons/lcannon/shockwave_haze_small
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
@@ -67,6 +73,7 @@ gfx/weapons/lcannon/fire
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/lcannon/fire
 		blendFunc GL_SRC_ALPHA GL_ONE
@@ -79,6 +86,7 @@ gfx/weapons/lcannon/trail
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/lcannon/trail
 		blendFunc GL_SRC_ALPHA GL_ONE

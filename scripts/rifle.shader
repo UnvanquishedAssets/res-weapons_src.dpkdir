@@ -1,6 +1,7 @@
 models/weapons/rifle/smg
 {
 	qer_editorImage models/weapons/rifle/smg_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/rifle/smg_d
 		normalMap   models/weapons/rifle/smg_n
@@ -11,6 +12,7 @@ models/weapons/rifle/smg
 gfx/weapons/rifle/verysmallrock
 {
 	cull disable
+	imageMinDimension 128
 	{
 		map gfx/weapons/rifle/verysmallrock
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -23,6 +25,7 @@ models/weapons/rifle/flash
 {
 	sort additive
 	cull disable
+	imageMinDimension 128
 	{
 		map	models/weapons/rifle/flash
 		tcMod rotate 3000
@@ -34,6 +37,7 @@ gfx/weapons/rifle/smoke
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/rifle/smoke
 		blendFunc blend
@@ -46,6 +50,7 @@ gfx/weapons/rifle/flash
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/rifle/flash
 		blendFunc GL_SRC_ALPHA GL_ONE
@@ -58,6 +63,7 @@ gfx/weapons/rifle/spiderflash
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/rifle/spiderflash
 		blendFunc GL_SRC_ALPHA GL_ONE
@@ -69,6 +75,7 @@ gfx/weapons/rifle/spiderflash
 gfx/weapons/rifle/mark
 {
 	polygonOffset
+	imageMinDimension 128
 	{
 		map gfx/weapons/rifle/mark
 		//map models/weapons/rifle/lense

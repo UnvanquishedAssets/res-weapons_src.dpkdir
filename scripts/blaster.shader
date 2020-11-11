@@ -1,6 +1,7 @@
 models/weapons/blaster/blasterz
 {
 	qer_editorImage models/weapons/blaster/blasterz_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/blaster/blasterz_d
 		normalMap   models/weapons/blaster/blasterz_n
@@ -13,6 +14,7 @@ models/weapons/blaster/flash
 {
 	sort additive
 	cull disable
+	imageMinDimension 128
 	{
 		map	models/weapons/blaster/flash
 		blendfunc GL_ONE GL_ONE

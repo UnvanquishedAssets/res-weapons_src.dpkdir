@@ -1,6 +1,7 @@
 models/weapons/grenade/grenade
 {
 	qer_editorImage models/weapons/grenade/grenade_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/grenade/grenade_d
 		normalMap   models/weapons/grenade/grenade_n
@@ -10,6 +11,7 @@ models/weapons/grenade/grenade
 
 gfx/weapons/grenade/flare
 {
+	imageMinDimension 128
 	{
 		map gfx/weapons/grenade/flare
 		blendfunc add
@@ -18,9 +20,9 @@ gfx/weapons/grenade/flare
 
 gfx/weapons/grenade/puff
 {
-	//nopicmip
 	cull disable
 	entityMergable
+	imageMinDimension 128
 	//deformVertexes wave 40 sin 0 .1 0 .5
 	{
 		map gfx/weapons/grenade/puff
@@ -51,6 +53,7 @@ gfx/weapons/grenade/shockwave_haze
 	cull none
 	entityMergable
 	implicitMapGL1 gfx/transparent
+	imageMinDimension 128
 	{
 		stage heathazeMap
 		deformMagnitude 5
@@ -62,6 +65,7 @@ gfx/weapons/grenade/smoke
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/rifle/smoke
 		blendFunc blend

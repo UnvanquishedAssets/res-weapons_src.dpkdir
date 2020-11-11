@@ -1,6 +1,7 @@
 models/weapons/mdriver/zmdriver
 {
 	qer_editorImage models/weapons/mdriver/zmdriver_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/mdriver/zmdriver_d
 		normalMap   models/weapons/mdriver/zmdriver_n
@@ -11,6 +12,7 @@ models/weapons/mdriver/zmdriver
 models/weapons/mdriver/core
 {
 	qer_editorImage models/weapons/mdriver/core_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/mdriver/core_d
 		normalMap   models/weapons/mdriver/core_n
@@ -21,6 +23,7 @@ models/weapons/mdriver/core
 models/weapons/mdriver/lens
 {
 	qer_editorImage models/weapons/mdriver/lens_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/weapons/mdriver/lens_d
 		specularMap models/weapons/mdriver/lens_s
@@ -31,6 +34,7 @@ models/weapons/mdriver/flash
 {
 	sort additive
 	cull disable
+	imageMinDimension 128
 	{
 		map models/weapons/mdriver/flash
 		blendfunc GL_ONE GL_ONE
@@ -40,6 +44,7 @@ models/weapons/mdriver/flash
 gfx/weapons/mdriver/glow_particle1
 {
 	cull disable
+	imageMinDimension 128
 	{
 		map gfx/weapons/mdriver/glow_particle1
 		blendFunc blend
@@ -51,6 +56,7 @@ gfx/weapons/mdriver/glow_particle1
 gfx/weapons/mdriver/glow_particle2
 {
 	cull disable
+	imageMinDimension 128
 	{
 		map gfx/weapons/mdriver/glow_particle2
 		blendFunc blend
@@ -63,6 +69,7 @@ gfx/weapons/mdriver/muzzleflash
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/weapons/mdriver/muzzleflash
 		blendFunc GL_SRC_ALPHA GL_ONE

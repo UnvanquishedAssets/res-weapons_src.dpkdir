@@ -8,6 +8,7 @@ gfx/weapons/flamer/fire/fire
 	polygonOffset
 	cull none
 	sort nearest
+	imageMinDimension 128
 	{
 		animMap 12 gfx/weapons/flamer/fire/fire1 gfx/weapons/flamer/fire/fire2 gfx/weapons/flamer/fire/fire3 gfx/weapons/flamer/fire/fire4 gfx/weapons/flamer/fire/fire5 gfx/weapons/flamer/fire/fire6 gfx/weapons/flamer/fire/fire7 gfx/weapons/flamer/fire/fire8
 		blendFunc GL_ONE GL_ONE

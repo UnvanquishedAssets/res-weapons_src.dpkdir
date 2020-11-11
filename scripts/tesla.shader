@@ -1,6 +1,7 @@
 gfx/weapons/reactor/bolt
 {
 	cull disable
+	imageMinDimension 128
 	{
 		map gfx/weapons/reactor/bolt
 		blendfunc add
