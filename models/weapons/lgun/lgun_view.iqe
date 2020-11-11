@@ -1,52 +1,52 @@
 # Inter-Quake Export
 
-joint "JNT_root" -1
-joint "r_root" 0
-joint "JNT_upper_arm_R" 1
-joint "JNT_lower_arm_0_R" 1
-joint "JNT_lower_arm_1_R" 3
-joint "JNT_wrist_R" 3
-joint "JNT_finger1_0_R" 5
-joint "JNT_finger1_1_R" 6
-joint "JNT_finger1_2_R" 7
-joint "JNT_lower_arm_R" 5
-joint "JNT_thumb_0_R" 5
-joint "JNT_thumb_1_R" 10
-joint "JNT_thumb_2_R" 11
-joint "JNT_finger4_0_R" 5
-joint "JNT_finger4_1_R" 13
-joint "JNT_finger4_2_R" 14
-joint "JNT_finger2_0_R" 5
-joint "JNT_finger2_1_R" 16
-joint "JNT_finger2_2_R" 17
-joint "JNT_finger3_0_R" 5
-joint "JNT_finger3_1_R" 19
-joint "JNT_finger3_2_R" 20
-joint "l_root" 0
-joint "JNT_upper_arm_L" 22
-joint "JNT_lower_arm_0_L" 22
-joint "JNT_lower_arm_1_L" 24
-joint "JNT_wrist_L" 24
-joint "JNT_lower_arm_L" 26
-joint "JNT_thumb_0_L" 26
-joint "JNT_thumb_1_L" 28
-joint "JNT_thumb_2_L" 29
-joint "JNT_finger1_0_L" 26
-joint "JNT_finger1_1_L" 31
-joint "JNT_finger1_2_L" 32
-joint "JNT_finger2_0_L" 26
-joint "JNT_finger2_1_L" 34
-joint "JNT_finger2_2_L" 35
-joint "JNT_finger3_0_L" 26
-joint "JNT_finger3_1_L" 37
-joint "JNT_finger3_2_L" 38
-joint "JNT_finger4_0_L" 26
-joint "JNT_finger4_1_L" 40
-joint "JNT_finger4_2_L" 41
-joint "JNT_GUN" 0
-joint "JNT_DISPLAY" 43
+joint "tag_weapon" -1
+joint "R_root" 0
+joint "R_upperarm" 1
+joint "R_loweruarm" 1
+joint "R_lowerlarm" 3
+joint "R_palm" 3
+joint "R_index_finger_base" 5
+joint "R_finger_index_mid" 6
+joint "R_finger_index_end" 7
+joint "R_lowerarm" 5
+joint "R_thumb_base" 5
+joint "R_thumb_mid" 10
+joint "R_thumb_end" 11
+joint "R_finger_pink_base" 5
+joint "R_finger_pink_mid" 13
+joint "R_finger_pink_end" 14
+joint "R_finger_middle_base" 5
+joint "R_finger_middle_mid" 16
+joint "R_finger_middle_end" 17
+joint "R_finger_ring_base" 5
+joint "R_finger_ring_mid" 19
+joint "R_finger_ring_end" 20
+joint "L_root" 0
+joint "L_upperarm" 22
+joint "L_loweruarm" 22
+joint "L_lowerlarm" 24
+joint "L_palm" 24
+joint "L_lowerarm" 26
+joint "L_thumb_base" 26
+joint "L_thumb_mid" 28
+joint "L_thumb_end" 29
+joint "L_finger_index_base" 26
+joint "L_finger_index_mid" 31
+joint "L_finger_index_end" 32
+joint "L_finger_middle_base" 26
+joint "L_finger_middle_mid" 34
+joint "L_finger_middle_end" 35
+joint "L_finger_ring_base" 26
+joint "L_finger_ring_mid" 37
+joint "L_finger_ring_end" 38
+joint "L_finger_pink_base" 26
+joint "L_finger_pink_mid" 40
+joint "L_finger_pink_end" 41
+joint "gun" 0
+joint "display" 43
 joint "tag_flash" 43
-joint "RIG" 0
+joint "rig" 0
 
 pq 0 0 0 -0.707106769 -0 -0 -0.707106769
 pq -1.95053506 -1.286569 5.9456768 0.00840229541 -0.739770591 -0.0099917138 -0.672732532
@@ -104,7 +104,7 @@ vertexarray blendindexes ubyte 4
 vertexarray blendweights ubyte 4
 
 mesh "Arms"
-material "models\weapons\hand"
+material "models/weapons/hand"
 vp 8.86441898 4.74760389 -0.659888983
 vn -0.00152000005 0.949118972 0.314915001
 vx 0.636749566 0.24374035 -0.731533051 1
@@ -22184,7 +22184,7 @@ fm 3856 3862 3864
 fm 3854 3856 3864
 
 mesh "display"
-material "models\weapons\lgun\display"
+material "models/weapons/lgun/display"
 vp 7.16891813 0.351154 1.36416805
 vn -0.574810028 0.00295000011 0.818282008
 vx -0.0048116683 0.999963999 -0.00698498683 -1
@@ -22245,7 +22245,7 @@ fm 8 7 6
 fm 6 9 8
 
 mesh "lasgun"
-material "models\weapons\lgun\lgun"
+material "models/weapons/lgun/lgun"
 vp 17.2850742 0.674494982 -0.990979016
 vn -0.0046000001 -0.999692023 -0.0243999995
 vx -0.999832094 0.0050307503 -0.0176218729 -1
