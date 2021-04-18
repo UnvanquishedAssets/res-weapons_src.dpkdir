@@ -1,11 +1,11 @@
-models/weapons/rifle/smg
+models/weapons/rifle/rifle
 {
-	qer_editorImage models/weapons/rifle/smg_d
+	qer_editorImage models/weapons/rifle/rifle_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/rifle/smg_d
-		normalMap   models/weapons/rifle/smg_n
-		specularMap models/weapons/rifle/smg_s
+		diffuseMap  models/weapons/rifle/rifle_d
+		normalMap   models/weapons/rifle/rifle_n
+		specularMap models/weapons/rifle/rifle_s
 	}
 }
 

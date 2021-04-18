@@ -55,7 +55,7 @@ joints {
 
 mesh {
 	// meshes: smg_firstperson_6k
-	shader "models/weapons/rifle/smg"
+	shader "models/weapons/rifle/rifle"
 
 	numverts 5709
 	vert 0 ( 0.5353 0.8281 ) 0 1
