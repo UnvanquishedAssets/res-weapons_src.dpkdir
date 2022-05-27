@@ -215,7 +215,7 @@ particles/weapons/flamer/muzzleflash
 			rotation 0 320~80 320~80
 			bounce .01
 
-			dynamicLight    0 300 0 { .25 .25 0 }
+			dynamicLight 50 100 100 { .25 .1 0 }
 
 			lifeTime 750                // keep synchronized with FLAMER_LIFETIME
 		}
