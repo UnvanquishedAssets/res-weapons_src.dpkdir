@@ -32,7 +32,7 @@ joints {
 
 mesh {
 	// meshes: lucifer
-	shader "models/weapons/lcannon/skin"
+	shader "models/weapons/lcannon/lcannon"
 
 	numverts 824
 	vert 0 ( 0.63261 0.901252 ) 0 1
@@ -2370,7 +2370,7 @@ mesh {
 
 mesh {
 	// meshes: Left Arm
-	shader "models/weapons/hand2"
+	shader "models/weapons/hand"
 
 	numverts 856
 	vert 0 ( 0.466773 0.341256 ) 0 2
