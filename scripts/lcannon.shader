@@ -1,11 +1,11 @@
-models/weapons/lcannon/pulse
+models/weapons/lcannon/lcannon
 {
-	qer_editorImage models/weapons/lcannon/pulse_d
+	qer_editorImage models/weapons/lcannon/lcannon_d
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/lcannon/pulse_d
-		normalMap models/weapons/lcannon/pulse_n
-		specularMap models/weapons/lcannon/pulse_s
+		diffuseMap  models/weapons/lcannon/lcannon_d
+		normalMap models/weapons/lcannon/lcannon_n
+		specularMap models/weapons/lcannon/lcannon_s
 	}
 }
 
@@ -14,8 +14,8 @@ models/weapons/lcannon/tplcannon
 	qer_editorImage models/weapons/lcannon/tplcannon_d
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/lcannon/tplcannon_d
-		normalMap models/weapons/lcannon/tplcannon_n
+		diffuseMap  models/weapons/lcannon/tplcannon_d
+		normalMap   models/weapons/lcannon/tplcannon_n
 		specularMap models/weapons/lcannon/tplcannon_s
 	}
 }
@@ -26,7 +26,7 @@ models/weapons/lcannon/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map models/weapons/lcannon/flash
+		map	models/weapons/lcannon/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }
