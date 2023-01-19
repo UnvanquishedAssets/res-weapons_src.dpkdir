@@ -49,7 +49,7 @@ particles/weapons/firebomb/impact
 			rotation 0 ~360 -
 			bounce 0
 
-			dynamicLight    0 1000 0 { 1 1 .8 }
+			dynamicLight    0 500 0 { 1 1 .8 }
 
 			lifeTime 500
 		}

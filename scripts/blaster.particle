@@ -24,7 +24,7 @@ particles/weapons/blaster/impact
 			rotation 0 ~360 ~360
 			bounce .8
 
-			dynamicLight    0 100 0 { .25 .25 .8 }
+			dynamicLight    0 50 0 { .25 .25 .8 }
 
 			lifeTime 600
 		}

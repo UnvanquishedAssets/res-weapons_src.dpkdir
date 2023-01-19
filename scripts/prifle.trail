@@ -10,7 +10,7 @@ trails/weapons/prifle/missile
 		fadeOutTime		2.5
 		textureType		stretch 1 .1
 
-		dynamicLight        50 { .5 .5 .5 }
+		dynamicLight        25 { .5 .5 .5 }
 
 		jitter 1 10
 	}
