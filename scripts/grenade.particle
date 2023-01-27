@@ -8,13 +8,13 @@ particles/weapons/grenade/impact_trail
 
 			displacement 0 0 -40 ~60
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 5
-			velocity          0 0 1 ~360
+			velocity 0 0 1 ~360
 
 			radius 0 105~75% 65~75%
-			alpha  0 .6 0
+			alpha 0 .6 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -39,13 +39,13 @@ models/weapons/grenade/pufffire
 
 			displacement 0 0 0 ~3
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 5
-			velocity          0 0 1 ~360
+			velocity 0 0 1 ~360
 
 			radius 0 5~75% 5~75%
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -~2%
 			bounce 0
 
@@ -57,6 +57,7 @@ models/weapons/grenade/pufffire
 		period 50 - 0
 	}
 }
+
 particles/weapons/grenade/impact
 {
 	ejector
@@ -67,18 +68,18 @@ particles/weapons/grenade/impact
 
 			displacement 0 0 11 ~10
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 150~75%
-			velocity          0 0 1 ~45
+			velocity 0 0 1 ~45
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 10
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 25~75% 75~75%
-			alpha  500 1 0
+			alpha 500 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -97,17 +98,17 @@ particles/weapons/grenade/impact
 		{
 			//shader sync gfx/weapons/tracer/spark
 
-			displacement		0 0 0 ~0
+			displacement 0 0 0 ~0
 
-			velocityType		static
-			velocityDir		linear
-			velocityMagnitude		750
-			velocity			0 0 1 ~90
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 750
+			velocity 0 0 1 ~90
 
-			accelerationType		static
-			accelerationDir   	linear
-			accelerationMagnitude	1700
-			acceleration		0 0 -1 0
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 1700
+			acceleration 0 0 -1 0
 
 			radius 0 50 15
 			alpha 0 1 1
@@ -116,7 +117,7 @@ particles/weapons/grenade/impact
 			lifeTime 180
 
 			//childSystem models/weapons/grenade/pufffire
-			childTrailSystem		trails/weapons/grenade/puff
+			childTrailSystem trails/weapons/grenade/puff
 		}
 
 		count 10~50%
@@ -131,13 +132,13 @@ particles/weapons/grenade/impact
 
 			displacement 0 0 8 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
 			radius 0 0 500
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -149,17 +150,17 @@ particles/weapons/grenade/impact
 
 			displacement 0 0 8 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
 			radius 0 0 500
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
-			dynamicLight    0 500 0 { 1 1 .8 }
+			dynamicLight 0 500 0 { 1 1 .8 }
 
 			lifeTime 500
 		}

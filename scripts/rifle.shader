@@ -3,8 +3,8 @@ models/weapons/rifle/rifle
 	qer_editorImage models/weapons/rifle/rifle_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/rifle/rifle_d
-		normalMap   models/weapons/rifle/rifle_n
+		diffuseMap models/weapons/rifle/rifle_d
+		normalMap models/weapons/rifle/rifle_n
 		specularMap models/weapons/rifle/rifle_s
 	}
 }
@@ -27,7 +27,7 @@ models/weapons/rifle/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/rifle/flash
+		map models/weapons/rifle/flash
 		tcMod rotate 3000
 		blendfunc GL_ONE GL_ONE
 	}

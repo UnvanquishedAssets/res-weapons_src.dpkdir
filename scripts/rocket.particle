@@ -6,28 +6,28 @@ particles/weapons/rocket/impact
 		{
 			shader sync gfx/weapons/flamer/flame/flame02 gfx/weapons/flamer/flame/flame03 gfx/weapons/flamer/flame/flame04 gfx/weapons/flamer/flame/flame05 gfx/weapons/flamer/flame/flame06 gfx/weapons/flamer/flame/flame07 gfx/weapons/flamer/flame/flame08 gfx/weapons/flamer/flame/flame09 gfx/weapons/flamer/flame/flame10 gfx/weapons/flamer/flame/flame11 gfx/weapons/flamer/flame/flame12 gfx/weapons/flamer/flame/flame13 gfx/weapons/flamer/flame/flame14 gfx/weapons/flamer/flame/flame15 gfx/weapons/flamer/flame/flame16 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame21 gfx/weapons/flamer/flame/flame22 gfx/weapons/flamer/flame/flame23 gfx/weapons/flamer/flame/flame24
 
-			displacement          0 0 0 ~0
+			displacement 0 0 0 ~0
 
-			velocityType          static
-			velocityDir           linear
-			velocityMagnitude     100~75%
-			velocity              0 0 1 ~45
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 100~75%
+			velocity 0 0 1 ~45
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 100
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
-			radius                0 10~75% 30~75%
-			alpha                 400 1 0
-			rotation              0 ~360 -
-			bounce                0
+			radius 0 10~75% 30~75%
+			alpha 400 1 0
+			rotation 0 ~360 -
+			bounce 0
 
-			lifeTime              400
+			lifeTime 400
 		}
 
-		count  3
-		delay  0
+		count 3
+		delay 0
 		period 0 - ~0%
 	}
 }

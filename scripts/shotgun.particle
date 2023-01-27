@@ -4,17 +4,17 @@ particles/weapons/shotgun/impact
 	{
 		particle
 		{
-			displacement		0 0 0 ~0
+			displacement 0 0 0 ~0
 
-			velocityType		normal
-			velocityDir		linear
-			velocityMagnitude		175~20
-			velocity			0 0 0 ~10
+			velocityType normal
+			velocityDir linear
+			velocityMagnitude 175~20
+			velocity 0 0 0 ~10
 
-			accelerationType		static
-			accelerationDir   	linear
-			accelerationMagnitude	350
-			acceleration		0 0 -1 0
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 350
+			acceleration 0 0 -1 0
 
 			radius 0 50 15
 			alpha 0 1 1
@@ -22,7 +22,7 @@ particles/weapons/shotgun/impact
 			rotation 0 0 50
 			lifeTime 150
 
-			childTrailSystem		trails/weapons/rifle/impact_puff
+			childTrailSystem trails/weapons/rifle/impact_puff
 		}
 
 		count 1
@@ -38,18 +38,18 @@ particles/weapons/shotgun/impact
 
 			displacement 0 0 0 ~5
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 200
-			velocity          0 0 0 ~120
+			velocity 0 0 0 ~120
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 600
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 1 1
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce .7
 
@@ -70,18 +70,18 @@ particles/weapons/shotgun/impact
 			displacement 0 0 0 ~1
 			normalDisplacement -30
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 80
-			velocity          0 0 0 0
+			velocity 0 0 0 0
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 120
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 20 30
-			alpha  0 .4 0
+			alpha 0 .4 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -101,18 +101,18 @@ particles/weapons/shotgun/impact
 
 			normalDisplacement 0
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 0 ~160
+			velocity 0 0 0 ~160
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 8 6
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -138,18 +138,18 @@ particles/weapons/shotgun/muzzleflash
 			parentVelocityFraction 1
 
 
-			velocityType      cent
-			velocityDir       linear
+			velocityType cent
+			velocityDir linear
 			velocityMagnitude 40
-			velocity          -1 0 0 0
+			velocity -1 0 0 0
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 0 0
+			acceleration 0 0 0 0
 
 			radius 0 12 8
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -160,6 +160,7 @@ particles/weapons/shotgun/muzzleflash
 		delay 0
 		period 0 - ~0%
 	}
+
 //	ejector
 //	{
 //		particle
@@ -170,18 +171,18 @@ particles/weapons/shotgun/muzzleflash
 
 //			parentVelocityFraction .85
 
-//			velocityType      tag
-//			velocityDir       linear
+//			velocityType tag
+//			velocityDir linear
 //			velocityMagnitude 0
-//			velocity          1 0 0 0
+//			velocity 1 0 0 0
 
-//			accelerationType      static
-//			accelerationDir       linear
+//			accelerationType static
+//			accelerationDir linear
 //			accelerationMagnitude 50
-//			acceleration          0 0 1 0
+//			acceleration 0 0 1 0
 
 //			radius 0 5 15~50%
-//			alpha  0 1 0
+//			alpha 0 1 0
 //			rotation 0 ~360 -
 //			bounce 0
 
@@ -191,6 +192,7 @@ particles/weapons/shotgun/muzzleflash
 //		delay 0
 //		period 0 - ~0%
 //	}
+
 	ejector
 	{
 		particle
@@ -201,15 +203,15 @@ particles/weapons/shotgun/muzzleflash
 
 			parentVelocityFraction .85
 
-			velocityType      static_transform
-			velocityDir       linear
+			velocityType static_transform
+			velocityDir linear
 			velocityMagnitude 550
-			velocity          1 -1 .5 ~20
+			velocity 1 -1 .5 ~20
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 .8 -
 			bounce .7
@@ -235,15 +237,15 @@ particles/weapons/chaingun/muzzleflash
 
 			parentVelocityFraction .85
 
-			velocityType      static_transform
-			velocityDir       linear
+			velocityType static_transform
+			velocityDir linear
 			velocityMagnitude 200
-			velocity          0 -1 3 ~10
+			velocity 0 -1 3 ~10
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 1 -
 			bounce .5

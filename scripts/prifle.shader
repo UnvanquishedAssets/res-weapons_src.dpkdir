@@ -3,8 +3,8 @@ models/weapons/prifle/zprifle
 	qer_editorImage models/weapons/prifle/zprifle_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/prifle/zprifle_d
-		normalMap   models/weapons/prifle/zprifle_n
+		diffuseMap models/weapons/prifle/zprifle_d
+		normalMap models/weapons/prifle/zprifle_n
 		specularMap models/weapons/prifle/zprifle_s
 	}
 }
@@ -14,8 +14,8 @@ models/weapons/prifle/sight
 	qer_editorImage models/weapons/prifle/sight_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/prifle/sight_d
-		normalMap   models/weapons/prifle/sight_n
+		diffuseMap models/weapons/prifle/sight_d
+		normalMap models/weapons/prifle/sight_n
 		specularMap models/weapons/prifle/sight_s
 	}
 }
@@ -36,8 +36,8 @@ models/weapons/prifle/misc
 	qer_editorImage models/weapons/prifle/misc_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/prifle/misc_d
-		normalMap   models/weapons/prifle/misc_n
+		diffuseMap models/weapons/prifle/misc_d
+		normalMap models/weapons/prifle/misc_n
 		specularMap models/weapons/prifle/misc_s
 	}
 }
@@ -48,7 +48,7 @@ models/weapons/prifle/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/prifle/flash
+		map models/weapons/prifle/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }

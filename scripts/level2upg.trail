@@ -2,29 +2,29 @@ trails/weapons/level2upg/lightning
 {
 	beam
 	{
-		shader        gfx/weapons/reactor/bolt
+		shader gfx/weapons/reactor/bolt
 
-		segments      5
-		width         16 16
-		color         { .8 .8 .8 } -
+		segments 5
+		width 16 16
+		color { .8 .8 .8 } -
 
-		textureType   repeat front 100
+		textureType repeat front 100
 
-		jitter        4 200
-		jitter        1 20
+		jitter 4 200
+		jitter 1 20
 	}
 
 	beam
 	{
-		shader        gfx/weapons/reactor/bolt
+		shader gfx/weapons/reactor/bolt
 
-		segments      8
-		width         5 5
-		color         { .5 .8 1 } -
+		segments 8
+		width 5 5
+		color { .5 .8 1 } -
 
-		textureType   repeat back 50
+		textureType repeat back 50
 
-		jitter        2 150
-		jitter        1 30
+		jitter 2 150
+		jitter 1 30
 	}
 }

@@ -3,10 +3,10 @@ models/weapons/blaster/blasterz
 	qer_editorImage models/weapons/blaster/blasterz_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/blaster/blasterz_d
-		normalMap   models/weapons/blaster/blasterz_n
+		diffuseMap models/weapons/blaster/blasterz_d
+		normalMap models/weapons/blaster/blasterz_n
 		specularMap models/weapons/blaster/blasterz_s
-		glowMap     models/weapons/blaster/blasterz_a
+		glowMap models/weapons/blaster/blasterz_a
 	}
 }
 
@@ -16,7 +16,7 @@ models/weapons/blaster/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/blaster/flash
+		map models/weapons/blaster/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }

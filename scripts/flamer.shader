@@ -3,8 +3,8 @@ models/weapons/flamer/flamer
 	qer_editorImage models/weapons/flamer/flamer_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/flamer/flamer_d
-		normalMap   models/weapons/flamer/flamer_n
+		diffuseMap models/weapons/flamer/flamer_d
+		normalMap models/weapons/flamer/flamer_n
 		specularMap models/weapons/flamer/flamer_s
 	}
 }
@@ -15,7 +15,7 @@ models/weapons/flamer/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/flamer/flash
+		map models/weapons/flamer/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -57,7 +57,7 @@ gfx/weapons/flamer/mark
 	}
 }
 
-//   BEST FLAM THROEWR EVAR!
+// BEST FLAM THROEWR EVAR!
 gfx/weapons/flamer/flame/flame00
 {
 	nopicmip

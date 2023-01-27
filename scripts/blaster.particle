@@ -7,24 +7,24 @@ particles/weapons/blaster/impact
 			shader sync gfx/weapons/blaster/bullet
 
 			displacement 0 0 0 ~2
-			normalDisplacement  0
+			normalDisplacement 0
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 155
-			velocity          0 0 0 ~90
+			velocity 0 0 0 ~90
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 600
-			acceleration          0 0 -1 ~10
+			acceleration 0 0 -1 ~10
 
 			radius 0 1.5~1.5 ~1.5
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 ~360
 			bounce .8
 
-			dynamicLight    0 50 0 { .25 .25 .8 }
+			dynamicLight 0 50 0 { .25 .25 .8 }
 
 			lifeTime 600
 		}
@@ -40,20 +40,20 @@ particles/weapons/blaster/impact
 			shader sync gfx/weapons/blaster/bullet
 
 			displacement 0 0 0 0
-			normalDisplacement  0
+			normalDisplacement 0
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 0 ~110
+			velocity 0 0 0 ~110
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 -1 ~10
+			acceleration 0 0 -1 ~10
 
 			radius 0 10 0
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 0 -
 			bounce 0
 
@@ -68,7 +68,7 @@ particles/weapons/blaster/impact
 
 particles/weapons/blaster/muzzleflash
 {
- ejector
+	ejector
 	{
 		particle
 		{
@@ -79,18 +79,18 @@ particles/weapons/blaster/muzzleflash
 
 			parentVelocityFraction 1
 
-			velocityType      cent
-			velocityDir       linear
+			velocityType cent
+			velocityDir linear
 			velocityMagnitude 100
-			velocity          1 0 0 0
+			velocity 1 0 0 0
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 0 0
+			acceleration 0 0 0 0
 
 			radius 0 2 5
-			alpha  0 .4 0
+			alpha 0 .4 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -105,18 +105,18 @@ particles/weapons/blaster/muzzleflash
 
 			parentVelocityFraction 1
 
-			velocityType      cent
-			velocityDir       linear
+			velocityType cent
+			velocityDir linear
 			velocityMagnitude 40
-			velocity          -1 0 0 0
+			velocity -1 0 0 0
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 0 0
+			acceleration 0 0 0 0
 
 			radius 0 7 4
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 0 -
 			bounce 0
 

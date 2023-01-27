@@ -8,19 +8,19 @@ particles/weapons/hive/missile
 
 			displacement 0 0 0 ~4
 
-			parentVelocityFraction  .5
-			velocityType      static
-			velocityDir       linear
+			parentVelocityFraction .5
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 100
-			velocity          0 0 1 ~180
+			velocity 0 0 1 ~180
 
-			accelerationType      cent
-			accelerationDir       point
+			accelerationType cent
+			accelerationDir point
 			accelerationMagnitude 2000
 
 			rotation 0 -20~40 -20~40
 			radius 0 2 2
-			alpha  0 1 0
+			alpha 0 1 0
 			bounce .5
 
 			lifeTime 4000

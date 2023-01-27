@@ -8,18 +8,18 @@ particles/weapons/level3upg/impact
 
 			displacement 0 0 0 ~8
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 800
-			velocity          0 0 1 ~80
+			velocity 0 0 1 ~80
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 3~2 0
-			alpha  0 1 1
+			alpha 0 1 1
 			rotation 0 ~360 -
 			bounce .4~100%
 

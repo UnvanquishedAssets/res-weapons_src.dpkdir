@@ -2,13 +2,13 @@ trails/weapons/grenade/puff
 {
 	beam
 	{
-		shader		gfx/weapons/grenade/puff
-		segments		16
-		width		10 128
-		alpha 		1 0
-		segmentTime		10
-		fadeOutTime		800
-		textureType		stretch 1 0
+		shader gfx/weapons/grenade/puff
+		segments 16
+		width 10 128
+		alpha 1 0
+		segmentTime 10
+		fadeOutTime 800
+		textureType stretch 1 0
 
 		// jitter 1 10
 	}

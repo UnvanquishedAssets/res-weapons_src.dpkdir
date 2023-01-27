@@ -1,6 +1,6 @@
 gfx/weapons/flamer/fire/fire
 {
-	qer_editorImage	gfx/weapons/flamer/fire/fire_p
+	qer_editorImage gfx/weapons/flamer/fire/fire_p
 //	q3map_surfacelight 1000
 	surfaceparm nomarks
 	surfaceparm nolightmap

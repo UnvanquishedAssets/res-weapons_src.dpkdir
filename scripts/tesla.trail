@@ -2,29 +2,29 @@ trails/weapons/reactor/lightning
 {
 	beam
 	{
-		shader        gfx/weapons/reactor/bolt
+		shader gfx/weapons/reactor/bolt
 
-		segments      9
-		width         8 8
-		color         { .75 .5 1 } -
+		segments 9
+		width 8 8
+		color { .75 .5 1 } -
 
-		textureType   repeat front 100
+		textureType repeat front 100
 
-		jitter        12 200
-		jitter        2 20
+		jitter 12 200
+		jitter 2 20
 	}
 
 	beam
 	{
-		shader        gfx/weapons/reactor/bolt
+		shader gfx/weapons/reactor/bolt
 
-		segments      9
-		width         8 8
-		color         { .5 .8 1 } -
+		segments 9
+		width 8 8
+		color { .5 .8 1 } -
 
-		textureType   repeat back 50
+		textureType repeat back 50
 
-		jitter        12 150
-		jitter        2 30
+		jitter 12 150
+		jitter 2 30
 	}
 }

@@ -26,7 +26,7 @@ models/weapons/lgun/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/lgun/flash
+		map models/weapons/lgun/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }

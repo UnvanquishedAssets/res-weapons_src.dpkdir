@@ -4,19 +4,19 @@ particles/weapons/lcannon/missile_primary
 	{
 		particle
 		{
-			displacement		0 0 0 ~25
+			displacement 0 0 0 ~25
 
-			velocityType		cent
-			velocityDir		linear
-			velocityMagnitude		500
-			velocity			0 0 1 ~30
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 500
+			velocity 0 0 1 ~30
 
-			//accelerationType		static_transform
-			accelerationType		cent
-			//accelerationDir   	linear
-			accelerationDir   	point
-			accelerationMagnitude	50000
-			//acceleration		0 -1 0 0
+			//accelerationType static_transform
+			accelerationType cent
+			//accelerationDir linear
+			accelerationDir point
+			accelerationMagnitude 50000
+			//acceleration 0 -1 0 0
 			accelerationPoint -100 0 0 ~0
 
 			parentVelocityFraction 0
@@ -27,26 +27,28 @@ particles/weapons/lcannon/missile_primary
 			rotation 0 0 -
 			lifeTime 1000
 
-			dynamicLight    0 150 0 { .75 1 .75 }
+			dynamicLight 0 150 0 { .75 1 .75 }
 
-			childTrailSystem		trails/weapons/lcannon/muzzleflash0
+			childTrailSystem trails/weapons/lcannon/muzzleflash0
 		}
+
 		count infinite
 		delay 0
 		period 175 - ~0%
 	}
+
 	ejector
 	{
 		particle
 		{
 			//shader sync gfx/weapons/blaster/orange_particle
 
-			displacement		0 0 0 ~3
+			displacement 0 0 0 ~3
 
-			velocityType		static
-			velocityDir		linear
-			velocityMagnitude		500
-			velocity			0 0 1 ~360
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 500
+			velocity 0 0 1 ~360
 
 			radius 0 .5 .5
 			alpha 0 1 1
@@ -57,6 +59,7 @@ particles/weapons/lcannon/missile_primary
 			onDeathSystem LucyPrimaryExtras
 
 		}
+
 		count infinite
 		delay 0
 		period 50 - ~0%
@@ -71,17 +74,17 @@ LucyPrimaryExtras
 		{
 			displacement 0 0 0 ~0
 
-			normalDisplacement  3
+			normalDisplacement 3
 
-			velocityType      static //cent //tag
-			velocityDir       linear
+			velocityType static //cent //tag
+			velocityDir linear
 			velocityMagnitude 250
 			velocity 0 0 1 ~90
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 1 -
 			bounce .5
@@ -103,19 +106,19 @@ particles/weapons/lcannon/missile_secondary
 	{
 		particle
 		{
-			displacement		0 0 0 ~25
+			displacement 0 0 0 ~25
 
-			velocityType		cent
-			velocityDir		linear
-			velocityMagnitude		500
-			velocity			0 0 1 ~30
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 500
+			velocity 0 0 1 ~30
 
-			//accelerationType		static_transform
-			accelerationType		cent
-			//accelerationDir   	linear
-			accelerationDir   	point
-			accelerationMagnitude	50000
-			//acceleration		0 -1 0 0
+			//accelerationType static_transform
+			accelerationType cent
+			//accelerationDir linear
+			accelerationDir point
+			accelerationMagnitude 50000
+			//acceleration 0 -1 0 0
 			accelerationPoint -100 0 0 ~0
 
 			parentVelocityFraction 0
@@ -126,10 +129,11 @@ particles/weapons/lcannon/missile_secondary
 			rotation 0 0 50
 			lifeTime 400
 
-			dynamicLight    0 75 0 { .75 1 .75 }
+			dynamicLight 0 75 0 { .75 1 .75 }
 
-			childTrailSystem		trails/weapons/lcannon/muzzleflash1
+			childTrailSystem trails/weapons/lcannon/muzzleflash1
 		}
+
 		count infinite
 		delay 0
 		period 300 - ~0%
@@ -146,18 +150,18 @@ particles/weapons/lcannon/impact_big
 
 			displacement 0 0 11 ~10
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 150~75%
-			velocity          0 0 1 ~25
+			velocity 0 0 1 ~25
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 10
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 25~75% 75~75%
-			alpha  500 1 0
+			alpha 500 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -170,23 +174,24 @@ particles/weapons/lcannon/impact_big
 		delay 0
 		period 0 - ~0%
 	}
+
 	ejector
 	{
 		particle
 		{
 			//shader sync gfx/weapons/tracer/spark
 
-			displacement		0 0 0 ~0
+			displacement 0 0 0 ~0
 
-			velocityType		static
-			velocityDir		linear
-			velocityMagnitude		750
-			velocity			0 0 1 ~90
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 750
+			velocity 0 0 1 ~90
 
-			accelerationType		static
-			accelerationDir   	linear
-			accelerationMagnitude	1700
-			acceleration		0 0 -1 0
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 1700
+			acceleration 0 0 -1 0
 
 			radius 0 50 15
 			alpha 0 1 1
@@ -195,13 +200,14 @@ particles/weapons/lcannon/impact_big
 			lifeTime 180
 
 			//childSystem models/weapons/grenade/pufffire
-			childTrailSystem		trails/weapons/grenade/puff
+			childTrailSystem trails/weapons/grenade/puff
 		}
 
 		count 10~50%
 		delay 0
 		period 0 1 4~10%
 	}
+
 	ejector
 	{
 		particle
@@ -210,13 +216,13 @@ particles/weapons/lcannon/impact_big
 
 			displacement 0 0 8 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
 			radius 0 0 150
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -229,13 +235,13 @@ particles/weapons/lcannon/impact_big
 
 			displacement 0 0 8 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
 			radius 0 20 150
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -257,46 +263,48 @@ particles/weapons/lcannon/impact_small
 			shader sync gfx/weapons/rifle/smoke
 
 			displacement 0 0 0 ~4
-			normalDisplacement  2~3
+			normalDisplacement 2~3
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 15~30
-			velocity          0 0 1 0
+			velocity 0 0 1 0
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 20~10
-			acceleration          0 0 1 ~40
+			acceleration 0 0 1 ~40
 
 			radius 0 2 12~50%
-			alpha  0 .6 0
+			alpha 0 .6 0
 			rotation 0 ~360 -
 			bounce 0
 
 			lifeTime 500
 		}
+
 		count 8
 		delay 215
 		period 35 - ~0%
 	}
+
 	ejector
 	{
 		particle
 		{
 			displacement 0 0 0 ~0
 
-			normalDisplacement  3
+			normalDisplacement 3
 
-			velocityType      normal //cent //tag
-			velocityDir       linear
+			velocityType normal //cent //tag
+			velocityDir linear
 			velocityMagnitude 250
 			velocity 0 0 0 ~90
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 1 -
 			bounce .5
@@ -311,6 +319,7 @@ particles/weapons/lcannon/impact_small
 		delay 0
 		period 0 - ~0%
 	}
+
 	ejector
 	{
 		particle
@@ -318,20 +327,20 @@ particles/weapons/lcannon/impact_small
 			shader sync gfx/weapons/prifle/impact
 
 			displacement 0 0 0 ~1.5
-			normalDisplacement  -2
+			normalDisplacement -2
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 0 ~110
+			velocity 0 0 0 ~110
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 0
-			acceleration          0 0 -1 ~10
+			acceleration 0 0 -1 ~10
 
 			radius 0 7 20
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 0 -
 			bounce 0
 
@@ -342,6 +351,7 @@ particles/weapons/lcannon/impact_small
 		delay 0
 		period 10 - ~0%
 	}
+
 	ejector
 	{
 		particle
@@ -350,13 +360,13 @@ particles/weapons/lcannon/impact_small
 
 			displacement 0 0 8 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
 			radius 0 5 50
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 

@@ -2,13 +2,13 @@ trails/weapons/lcannon/muzzleflash0
 {
 	beam
 	{
-		shader		gfx/weapons/lcannon/fire
-		segments		25
-		width		1 3
-		alpha 		1 0
-		segmentTime		1
-		fadeOutTime		10
-		textureType		stretch 1 0
+		shader gfx/weapons/lcannon/fire
+		segments 25
+		width 1 3
+		alpha 1 0
+		segmentTime 1
+		fadeOutTime 10
+		textureType stretch 1 0
 
 		// jitter 1 10
 	}
@@ -18,13 +18,13 @@ trails/weapons/lcannon/muzzleflash1
 {
 	beam
 	{
-		shader		gfx/weapons/lcannon/fire
-		segments		25
-		width		1 1
-		alpha 		1 0
-		segmentTime		1
-		fadeOutTime		10
-		textureType		stretch 1 0
+		shader gfx/weapons/lcannon/fire
+		segments 25
+		width 1 1
+		alpha 1 0
+		segmentTime 1
+		fadeOutTime 10
+		textureType stretch 1 0
 
 		// jitter 1 10
 	}
@@ -34,13 +34,13 @@ trails/weapons/lcannon/ball_primary
 {
 	beam
 	{
-		shader		gfx/weapons/lcannon/trail
-		segments		4
-		width		8 0
-		alpha 		1 0
-		segmentTime		100
-		fadeOutTime		250
-		textureType		stretch 1 0
+		shader gfx/weapons/lcannon/trail
+		segments 4
+		width 8 0
+		alpha 1 0
+		segmentTime 100
+		fadeOutTime 250
+		textureType stretch 1 0
 
 		// jitter 1 100
 	}
@@ -50,13 +50,13 @@ trails/weapons/lcannon/ball_secondary
 {
 	beam
 	{
-		shader		gfx/weapons/lcannon/trail
-		segments		4
-		width		8 0
-		alpha 		1 0
-		segmentTime		20
-		fadeOutTime		5
-		textureType		stretch 1 0
+		shader gfx/weapons/lcannon/trail
+		segments 4
+		width 8 0
+		alpha 1 0
+		segmentTime 20
+		fadeOutTime 5
+		textureType stretch 1 0
 
 		jitter 1 100
 	}

@@ -9,18 +9,18 @@ particles/weapons/flamer/floorfire
 
 			displacement ~15 ~15 5 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 10~10
-			acceleration          0 0 1 0
+			acceleration 0 0 1 0
 
 			radius 0 5 45
-			alpha  0 .6~.1 0
+			alpha 0 .6~.1 0
 			rotation ~360 ~360 -
 			bounce .01
 
@@ -41,18 +41,18 @@ particles/weapons/flamer/floorfire
 
 			displacement ~15 ~15 5 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 0
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 10~10
-			acceleration          0 0 1 0
+			acceleration 0 0 1 0
 
 			radius 0 10 30~50%
-			alpha  0 .6~.1 0
+			alpha 0 .6~.1 0
 			rotation ~360 ~360 -
 			bounce .01
 
@@ -73,7 +73,7 @@ particles/weapons/flamer/floorfire
 			displacement ~12 ~12 -1 ~0
 
 			radius 0 4~4 8~6
-			alpha  0 .1~.3 0
+			alpha 0 .1~.3 0
 			rotation 0 0 -
 			bounce 0
 
@@ -96,7 +96,7 @@ particles/weapons/flamer/floorfire
 			displacement ~27 ~27 -1 ~0
 
 			radius 0 4~4 8~6
-			alpha  0 .1~.3 0
+			alpha 0 .1~.3 0
 			rotation 0 0 -
 			bounce 0
 

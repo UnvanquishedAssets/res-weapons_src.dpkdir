@@ -3,25 +3,24 @@ trails/weapons/rocket/missile
 	// fire
 	beam
 	{
-		shader      gfx/weapons/prifle/trail
-		segments    4
-		width       3 0
-		alpha       .8 0
+		shader gfx/weapons/prifle/trail
+		segments 4
+		width 3 0
+		alpha .8 0
 		segmentTime 25
 		textureType stretch 1 0
 
-		jitter      0 10
+		jitter 0 10
 	}
 
 	// smoke
 	beam
 	{
-		shader      gfx/weapons/rifle/smoke
-		segments    8
-		width       2 2
-		alpha       .15 0
+		shader gfx/weapons/rifle/smoke
+		segments 8
+		width 2 2
+		alpha .15 0
 		segmentTime 50
 		textureType repeat front 500
 	}
 }
-

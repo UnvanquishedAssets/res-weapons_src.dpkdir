@@ -37,7 +37,7 @@ models/weapons/psaw/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/psaw/flash
+		map models/weapons/psaw/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }

@@ -3,8 +3,8 @@ models/weapons/shotgun/shotgun
 	qer_editorImage models/weapons/shotgun/shotgun_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/shotgun/shotgun_d
-		normalMap   models/weapons/shotgun/shotgun_n
+		diffuseMap models/weapons/shotgun/shotgun_d
+		normalMap models/weapons/shotgun/shotgun_n
 		specularMap models/weapons/shotgun/shotgun_s
 	}
 }
@@ -15,7 +15,7 @@ models/weapons/shotgun/flash
 	cull disable
 	imageMinDimension 128
 	{
-		map	models/weapons/shotgun/flash
+		map models/weapons/shotgun/flash
 		blendfunc GL_ONE GL_ONE
 	}
 }
