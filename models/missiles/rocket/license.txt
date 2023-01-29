@@ -8,7 +8,6 @@ Size: 256px
 
 Animations: Idle
 
-
 Author: chris807 contact: cgart.chris807[at]gmail.com | tinyurl.com/chris807
 License: model and textures licensed under CC BY-SA 4.0
 
