@@ -69,7 +69,7 @@ particles/weapons/flamer/floorfire
 	{
 		particle
 		{
-			shader sync gfx/weapons/flamer/fire/fire
+			shader sync gfx/weapons/firebomb/fire
 			displacement ~12 ~12 -1 ~0
 
 			radius 0 4~4 8~6
@@ -92,7 +92,7 @@ particles/weapons/flamer/floorfire
 	{
 		particle
 		{
-			shader sync gfx/weapons/flamer/fire/fire
+			shader sync gfx/weapons/firebomb/fire
 			displacement ~27 ~27 -1 ~0
 
 			radius 0 4~4 8~6
