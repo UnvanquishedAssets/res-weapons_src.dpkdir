@@ -2,7 +2,6 @@ blaster
 chaingun
 ckit
 firebomb
-fire
 flamer
 grenade
 lcannon
