@@ -192,7 +192,6 @@ particles/weapons/flamer/muzzleflash
 
 	ejector // late fire
 	{
-
 		particle
 		{
 			shader sync gfx/weapons/flamer/torch/torch08 gfx/weapons/flamer/torch/torch08 gfx/weapons/flamer/torch/torch09 gfx/weapons/flamer/torch/torch10 gfx/weapons/flamer/torch/torch11 gfx/weapons/flamer/torch/torch12 gfx/weapons/flamer/torch/torch13 gfx/weapons/flamer/torch/torch14 gfx/weapons/flamer/torch/torch15 gfx/weapons/flamer/torch/torch16 gfx/weapons/flamer/torch/torch17 gfx/weapons/flamer/torch/torch18 gfx/weapons/flamer/torch/torch19 gfx/weapons/flamer/torch/torch20 gfx/weapons/flamer/torch/torch21 gfx/weapons/flamer/torch/torch22 gfx/weapons/flamer/torch/torch23
@@ -215,13 +214,39 @@ particles/weapons/flamer/muzzleflash
 			rotation 0 320~80 320~80
 			bounce .01
 
-			dynamicLight 50 50 100 { .25 .1 0 }
-
 			lifeTime 750 // keep synchronized with FLAMER_LIFETIME
 		}
 
 		count infinite
 		delay 0
 		period 15 - ~0%
+	}
+
+	ejector // light
+	{
+		particle
+		{
+			displacement 8 0 0 ~3
+
+			parentVelocityFraction .65 // keep synchronized with FLAMER_LAG
+
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 400 // keep synchronized with FLAMER_SPEED
+			velocity 0 0 0 ~3
+
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 70
+			acceleration 0 0 -1 ~0
+
+			dynamicLight 50 50 300 { .25 .1 0 }
+
+			lifeTime 750 // keep synchronized with FLAMER_LIFETIME
+		}
+
+		count infinite
+		delay 0
+		period 150 - ~0%
 	}
 }
