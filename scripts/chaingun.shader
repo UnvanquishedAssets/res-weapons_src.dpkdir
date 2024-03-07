@@ -1,9 +1,9 @@
 models/weapons/chaingun/chaingun
 {
-	qer_editorImage models/weapons/chaingun/chaingun_d
+	qer_editorImage models/weapons/chaingun/chaingun
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/chaingun/chaingun_d
+		diffuseMap models/weapons/chaingun/chaingun
 	}
 }
 
