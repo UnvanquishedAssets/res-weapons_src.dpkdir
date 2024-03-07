@@ -1,9 +1,9 @@
 models/weapons/rifle/rifle
 {
-	qer_editorImage models/weapons/rifle/rifle_d
+	qer_editorImage models/weapons/rifle/rifle
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/rifle/rifle_d
+		diffuseMap models/weapons/rifle/rifle
 		normalMap models/weapons/rifle/rifle_n
 		specularMap models/weapons/rifle/rifle_s
 	}
