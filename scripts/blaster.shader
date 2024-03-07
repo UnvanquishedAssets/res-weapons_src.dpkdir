@@ -1,9 +1,9 @@
 models/weapons/blaster/blasterz
 {
-	qer_editorImage models/weapons/blaster/blasterz_d
+	qer_editorImage models/weapons/blaster/blasterz
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/blaster/blasterz_d
+		diffuseMap models/weapons/blaster/blasterz
 		normalMap models/weapons/blaster/blasterz_n
 		specularMap models/weapons/blaster/blasterz_s
 		glowMap models/weapons/blaster/blasterz_a

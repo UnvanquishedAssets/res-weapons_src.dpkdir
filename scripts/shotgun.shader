@@ -1,9 +1,9 @@
 models/weapons/shotgun/shotgun
 {
-	qer_editorImage models/weapons/shotgun/shotgun_d
+	qer_editorImage models/weapons/shotgun/shotgun
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/shotgun/shotgun_d
+		diffuseMap models/weapons/shotgun/shotgun
 		normalMap models/weapons/shotgun/shotgun_n
 		specularMap models/weapons/shotgun/shotgun_s
 	}

@@ -1,9 +1,9 @@
 models/weapons/firebomb/firebomb
 {
-	qer_editorImage models/weapons/firebomb/firebomb_d
+	qer_editorImage models/weapons/firebomb/firebomb
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/firebomb/firebomb_d
+		diffuseMap models/weapons/firebomb/firebomb
 		normalMap models/weapons/firebomb/firebomb_n
 		specularMap models/weapons/firebomb/firebomb_s
 	}

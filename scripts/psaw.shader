@@ -1,9 +1,9 @@
 models/weapons/psaw/psaw
 {
-	qer_editorImage models/weapons/psaw/psaw_d
+	qer_editorImage models/weapons/psaw/psaw
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/psaw/psaw_d
+		diffuseMap models/weapons/psaw/psaw
 	}
 }
 
@@ -13,7 +13,7 @@ models/weapons/psaw/battery
 	cull disable
 	imageMinDimension 128
 	{
-		map models/weapons/psaw/chain_d
+		map models/weapons/psaw/chain
 		blendfunc GL_ONE GL_ONE
 		tcMod scroll .04 -.02
 	}
@@ -25,7 +25,7 @@ models/weapons/psaw/chain
 	cull disable
 	imageMinDimension 128
 	{
-		map models/weapons/psaw/chain_d
+		map models/weapons/psaw/chain
 		blendfunc GL_ONE GL_ONE
 		tcMod scroll 1 -4
 	}

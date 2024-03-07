@@ -1,9 +1,9 @@
 models/weapons/lcannon/lcannon
 {
-	qer_editorImage models/weapons/lcannon/lcannon_d
+	qer_editorImage models/weapons/lcannon/lcannon
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/lcannon/lcannon_d
+		diffuseMap  models/weapons/lcannon/lcannon
 		normalMap models/weapons/lcannon/lcannon_n
 		specularMap models/weapons/lcannon/lcannon_s
 	}
@@ -11,10 +11,10 @@ models/weapons/lcannon/lcannon
 
 models/weapons/lcannon/tplcannon
 {
-	qer_editorImage models/weapons/lcannon/tplcannon_d
+	qer_editorImage models/weapons/lcannon/tplcannon
 	imageMinDimension 128
 	{
-		diffuseMap  models/weapons/lcannon/tplcannon_d
+		diffuseMap  models/weapons/lcannon/tplcannon
 		normalMap   models/weapons/lcannon/tplcannon_n
 		specularMap models/weapons/lcannon/tplcannon_s
 	}

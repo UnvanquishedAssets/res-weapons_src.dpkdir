@@ -2,7 +2,7 @@ models/weapons/lgun/lgun
 {
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/lgun/lgun_d
+		diffuseMap models/weapons/lgun/lgun
 		normalMap models/weapons/lgun/lgun_n
 		specularMap models/weapons/lgun/lgun_s
 		specularExponentMin 10

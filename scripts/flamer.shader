@@ -1,9 +1,9 @@
 models/weapons/flamer/flamer
 {
-	qer_editorImage models/weapons/flamer/flamer_d
+	qer_editorImage models/weapons/flamer/flamer
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/flamer/flamer_d
+		diffuseMap models/weapons/flamer/flamer
 		normalMap models/weapons/flamer/flamer_n
 		specularMap models/weapons/flamer/flamer_s
 	}
