@@ -92,37 +92,6 @@ particles/weapons/shotgun/impact
 		delay 150~100
 		period 0 - ~0%
 	}
-
-	ejector
-	{
-		particle
-		{
-			shader sync gfx/weapons/blaster/orange_particle
-
-			normalDisplacement 0
-
-			velocityType normal
-			velocityDir linear
-			velocityMagnitude 0
-			velocity 0 0 0 ~160
-
-			accelerationType static
-			accelerationDir linear
-			accelerationMagnitude 0
-			acceleration 0 0 -1 0
-
-			radius 0 8 6
-			alpha 0 1 0
-			rotation 0 ~360 -
-			bounce 0
-
-			lifeTime 200
-		}
-
-		count 1
-		delay 0
-		period 0 - ~0%
-	}
 }
 
 particles/weapons/shotgun/muzzleflash

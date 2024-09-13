@@ -21,17 +21,6 @@ models/weapons/blaster/flash
 	}
 }
 
-gfx/weapons/blaster/orange_particle
-{
-	cull disable
-	{
-		map gfx/weapons/blaster/orange_particle
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		alphaGen vertex
-		rgbGen vertex
-	}
-}
-
 gfx/weapons/blaster/mark
 {
 	polygonOffset
