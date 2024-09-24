@@ -36,68 +36,6 @@ particles/weapons/lcannon/missile_primary
 		delay 0
 		period 175 - ~0%
 	}
-
-	ejector
-	{
-		particle
-		{
-			//shader sync gfx/weapons/blaster/orange_particle
-
-			displacement 0 0 0 ~3
-
-			velocityType static
-			velocityDir linear
-			velocityMagnitude 500
-			velocity 0 0 1 ~360
-
-			radius 0 .5 .5
-			alpha 0 1 1
-			bounce cull
-			rotation 0 0 -
-			lifeTime 550
-
-			onDeathSystem LucyPrimaryExtras
-
-		}
-
-		count infinite
-		delay 0
-		period 50 - ~0%
-	}
-}
-
-LucyPrimaryExtras
-{
-	ejector
-	{
-		particle
-		{
-			displacement 0 0 0 ~0
-
-			normalDisplacement 3
-
-			velocityType static //cent //tag
-			velocityDir linear
-			velocityMagnitude 250
-			velocity 0 0 1 ~90
-
-			accelerationType static
-			accelerationDir linear
-			accelerationMagnitude 800
-			acceleration 0 0 -1 0
-
-			radius 0 1 -
-			bounce .5
-
-			lifeTime 500
-
-
-		}
-
-		count 1~2
-		delay 0
-		period 0 - ~0%
-	}
 }
 
 particles/weapons/lcannon/missile_secondary
