@@ -1,6 +1,6 @@
 gfx/weapons/scope
 {
-	noPicMip
+	fitScreen
 	{
 		clampmap gfx/weapons/scope/zoom
 		alphaGen vertex
