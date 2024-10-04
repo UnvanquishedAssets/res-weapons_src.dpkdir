@@ -104,8 +104,6 @@ particles/weapons/lcannon/impact_big
 			bounce 0
 
 			lifeTime 500
-
-			//childSystem particles/weapons/grenade/impact_trail
 		}
 
 		count 2
@@ -117,8 +115,6 @@ particles/weapons/lcannon/impact_big
 	{
 		particle
 		{
-			//shader sync gfx/weapons/tracer/spark
-
 			displacement 0 0 0 ~0
 
 			velocityType static
@@ -137,7 +133,6 @@ particles/weapons/lcannon/impact_big
 			rotation 0 0 50
 			lifeTime 180
 
-			//childSystem models/weapons/grenade/pufffire
 			childTrailSystem trails/weapons/grenade/puff
 		}
 

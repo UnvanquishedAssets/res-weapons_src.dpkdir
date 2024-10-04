@@ -85,7 +85,6 @@ gfx/weapons/prifle/mark
 	imageMinDimension 128
 	{
 		map gfx/weapons/prifle/mark
-		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}
