@@ -38,7 +38,7 @@ particles/weapons/prifle/impact
 			shader sync gfx/weapons/prifle/impact
 
 			displacement 0 0 0 ~1.5
-			normalDisplacement -2
+			normalDisplacement 1
 
 			velocityType normal
 			velocityDir linear
