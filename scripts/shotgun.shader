@@ -26,7 +26,6 @@ gfx/weapons/shotgun/mark
 	imageMinDimension 128
 	{
 		map gfx/weapons/shotgun/mark
-		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}

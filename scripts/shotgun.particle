@@ -130,38 +130,6 @@ particles/weapons/shotgun/muzzleflash
 		period 0 - ~0%
 	}
 
-//	ejector
-//	{
-//		particle
-//		{
-//			shader sync gfx/weapons/rifle/smoke
-
-//			displacement 0 0 0 ~3
-
-//			parentVelocityFraction .85
-
-//			velocityType tag
-//			velocityDir linear
-//			velocityMagnitude 0
-//			velocity 1 0 0 0
-
-//			accelerationType static
-//			accelerationDir linear
-//			accelerationMagnitude 50
-//			acceleration 0 0 1 0
-
-//			radius 0 5 15~50%
-//			alpha 0 1 0
-//			rotation 0 ~360 -
-//			bounce 0
-
-//			lifeTime 500
-//		}
-//		count 2
-//		delay 0
-//		period 0 - ~0%
-//	}
-
 	ejector
 	{
 		particle

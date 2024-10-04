@@ -96,8 +96,6 @@ particles/weapons/grenade/impact
 	{
 		particle
 		{
-			//shader sync gfx/weapons/tracer/spark
-
 			displacement 0 0 0 ~0
 
 			velocityType static
@@ -116,7 +114,6 @@ particles/weapons/grenade/impact
 			rotation 0 0 50
 			lifeTime 180
 
-			//childSystem models/weapons/grenade/pufffire
 			childTrailSystem trails/weapons/grenade/puff
 		}
 
