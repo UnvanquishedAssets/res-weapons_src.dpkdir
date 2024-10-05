@@ -59,19 +59,6 @@ gfx/weapons/rifle/flash
 	}
 }
 
-gfx/weapons/rifle/spiderflash
-{
-	cull none
-	entityMergable
-	imageMinDimension 128
-	{
-		map gfx/weapons/rifle/spiderflash
-		blendFunc GL_SRC_ALPHA GL_ONE
-		rgbGen vertex
-		alphaGen vertex
-	}
-}
-
 gfx/weapons/rifle/mark
 {
 	polygonOffset
