@@ -43,6 +43,7 @@ gfx/weapons/rifle/smoke
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
+		depthFade 20
 	}
 }
 
