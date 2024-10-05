@@ -10,17 +10,6 @@ models/weapons/blaster/blasterz
 	}
 }
 
-models/weapons/blaster/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/blaster/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/blaster/mark
 {
 	polygonOffset

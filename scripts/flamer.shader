@@ -9,17 +9,6 @@ models/weapons/flamer/flamer
 	}
 }
 
-models/weapons/flamer/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/flamer/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/flamer/haze
 {
 	cull none

@@ -30,17 +30,6 @@ models/weapons/mdriver/lens
 	}
 }
 
-models/weapons/mdriver/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/mdriver/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/mdriver/glow_particle1
 {
 	cull disable

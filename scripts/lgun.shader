@@ -20,17 +20,6 @@ models/weapons/lgun/display
 	}
 }
 
-models/weapons/lgun/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/lgun/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/lgun/mark
 {
 	polygonOffset
