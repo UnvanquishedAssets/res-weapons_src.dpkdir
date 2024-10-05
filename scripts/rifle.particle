@@ -60,38 +60,6 @@ particles/weapons/rifle/impact
 		delay ~100
 		period 0 - ~0%
 	}
-
-	ejector
-	{
-		particle
-		{
-			shader sync gfx/weapons/rifle/smoke
-
-			displacement 0 0 0 ~1
-			normalDisplacement -30
-
-			velocityType normal
-			velocityDir linear
-			velocityMagnitude 80
-			velocity 0 0 0 0
-
-			accelerationType static
-			accelerationDir linear
-			accelerationMagnitude 120
-			acceleration 0 0 -1 0
-
-			radius 0 0 50
-			alpha 0 .4 0
-			rotation 0 ~360 -
-			bounce 0
-
-			lifeTime 575
-		}
-
-		count 1
-		delay 150~100
-		period 0 - ~0%
-	}
 }
 
 particles/weapons/rifle/muzzleflash
