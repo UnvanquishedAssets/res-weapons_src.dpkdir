@@ -36,38 +36,6 @@ particles/weapons/lgun/impact
 	{
 		particle
 		{
-			shader sync gfx/weapons/lgun/spark1 gfx/weapons/lgun/spark2 gfx/weapons/lgun/spark3 gfx/weapons/lgun/spark4 gfx/weapons/lgun/spark5 gfx/weapons/lgun/spark6
-
-			displacement 0 0 0 ~1.5
-			normalDisplacement .5
-
-			velocityType normal
-			velocityDir linear
-			velocityMagnitude 0
-			velocity 0 0 0 ~110
-
-			accelerationType static
-			accelerationDir linear
-			accelerationMagnitude 0
-			acceleration 0 0 -1 ~10
-
-			radius 0 25 10
-			alpha 0 1 0
-			rotation 0 0 -
-			bounce 0
-
-			lifeTime 500
-		}
-
-		count 1
-		delay 0
-		period 10 - ~0%
-	}
-
-	ejector
-	{
-		particle
-		{
 			shader sync gfx/weapons/rifle/smoke
 
 			displacement 0 0 0 ~4
