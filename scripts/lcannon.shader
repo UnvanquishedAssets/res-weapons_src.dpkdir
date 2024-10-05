@@ -20,17 +20,6 @@ models/weapons/lcannon/tplcannon
 	}
 }
 
-models/weapons/lcannon/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map	models/weapons/lcannon/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/lcannon/bullet
 {
 	cull disable

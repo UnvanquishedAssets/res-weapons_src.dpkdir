@@ -42,17 +42,6 @@ models/weapons/prifle/misc
 	}
 }
 
-models/weapons/prifle/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/prifle/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/prifle/flash
 {
 	cull none
