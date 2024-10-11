@@ -11,6 +11,7 @@ models/weapons/grenade/grenade
 
 gfx/weapons/grenade/flare
 {
+	cull none
 	imageMinDimension 128
 	{
 		map gfx/weapons/grenade/flare
