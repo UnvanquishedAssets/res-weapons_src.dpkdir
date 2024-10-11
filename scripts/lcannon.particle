@@ -154,12 +154,12 @@ particles/weapons/lcannon/impact_big
 			velocityMagnitude 0
 			velocity 0 0 1 ~60
 
-			radius 0 0 150
+			radius 0 0 90
 			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
-			lifeTime 450
+			lifeTime 100
 		}
 
 		particle
