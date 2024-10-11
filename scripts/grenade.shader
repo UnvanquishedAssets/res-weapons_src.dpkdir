@@ -30,12 +30,14 @@ gfx/weapons/grenade/puff
 		blendFunc blend
 		rgbGen vertex
 		alphaGen vertex
+		depthFade 30
 	}
 	{
 		map gfx/weapons/grenade/puffstreak
 		blendfunc blend
 		rgbGen vertex
 		alphaGen vertex
+		depthFade 30
 		tcMod turb 0 .05 0 .5
 		tcMod scroll -.5 0
 	}
@@ -44,6 +46,7 @@ gfx/weapons/grenade/puff
 		blendfunc blend
 		rgbGen vertex
 		alphaGen vertex
+		depthFade 30
 		tcMod turb 0 .05 0 .5
 		tcMod scroll -1 0
 	}

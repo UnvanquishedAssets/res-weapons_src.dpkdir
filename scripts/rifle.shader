@@ -46,6 +46,38 @@ gfx/weapons/rifle/smoke
 	}
 }
 
+gfx/weapons/rifle/puff
+{
+	cull disable
+	entityMergable
+	imageMinDimension 128
+	{
+		map gfx/weapons/grenade/puff
+		blendFunc blend
+		rgbGen vertex
+		alphaGen vertex
+		depthFade 3
+	}
+	{
+		map gfx/weapons/grenade/puffstreak
+		blendfunc blend
+		rgbGen vertex
+		alphaGen vertex
+		depthFade 3
+		tcMod turb 0 .05 0 .5
+		tcMod scroll -.5 0
+	}
+	{
+		map gfx/weapons/grenade/fire
+		blendfunc blend
+		rgbGen vertex
+		alphaGen vertex
+		depthFade 3
+		tcMod turb 0 .05 0 .5
+		tcMod scroll -1 0
+	}
+}
+
 gfx/weapons/rifle/flash
 {
 	cull none
