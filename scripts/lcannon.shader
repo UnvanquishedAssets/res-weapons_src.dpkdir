@@ -53,7 +53,7 @@ gfx/weapons/lcannon/shockwave_haze_small
 	implicitMapGL1 gfx/transparent
 	{
 		stage heathazeMap
-		deformMagnitude 3
+		deformMagnitude 0.4
 		map gfx/weapons/grenade/shockwave_n
 	}
 }
