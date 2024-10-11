@@ -171,14 +171,14 @@ particles/weapons/lcannon/impact_big
 		{
 			shader sync gfx/weapons/lcannon/shockwave_haze
 
-			displacement 0 0 8 ~0
+			normalDisplacement 20
 
-			velocityType static
+			velocityType normal
 			velocityDir linear
 			velocityMagnitude 0
 			velocity 0 0 1 ~60
 
-			radius 0 20 150
+			radius 0 20 90
 			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
