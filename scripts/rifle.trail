@@ -2,7 +2,7 @@ trails/weapons/rifle/impact_puff
 {
 	beam
 	{
-		shader gfx/weapons/grenade/puff
+		shader gfx/weapons/rifle/puff
 		segments 3
 		width 10 14
 		alpha 0 .5
