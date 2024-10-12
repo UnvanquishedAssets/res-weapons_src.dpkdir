@@ -1,33 +1,12 @@
 models/weapons/psaw/psaw
 {
-	qer_editorImage models/weapons/psaw/psaw
+	qer_editorImage models/weapons/psaw/psaw_d
 	imageMinDimension 128
 	{
-		diffuseMap models/weapons/psaw/psaw
-	}
-}
-
-models/weapons/psaw/battery
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/psaw/chain
-		blendfunc GL_ONE GL_ONE
-		tcMod scroll .04 -.02
-	}
-}
-
-models/weapons/psaw/chain
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/psaw/chain
-		blendfunc GL_ONE GL_ONE
-		tcMod scroll 1 -4
+		diffuseMap models/weapons/psaw/psaw_d
+		normalMap models/weapons/psaw/psaw_n
+		specularMap models/weapons/psaw/psaw_s
+		glowMap models/weapons/psaw/psaw_a
 	}
 }
 
