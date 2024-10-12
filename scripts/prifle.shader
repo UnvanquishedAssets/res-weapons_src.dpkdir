@@ -42,17 +42,6 @@ models/weapons/prifle/misc
 	}
 }
 
-models/weapons/prifle/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/prifle/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/prifle/flash
 {
 	cull none
@@ -85,7 +74,6 @@ gfx/weapons/prifle/mark
 	imageMinDimension 128
 	{
 		map gfx/weapons/prifle/mark
-		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}

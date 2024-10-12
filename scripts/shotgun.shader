@@ -9,24 +9,12 @@ models/weapons/shotgun/shotgun
 	}
 }
 
-models/weapons/shotgun/flash
-{
-	sort additive
-	cull disable
-	imageMinDimension 128
-	{
-		map models/weapons/shotgun/flash
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
 gfx/weapons/shotgun/mark
 {
 	polygonOffset
 	imageMinDimension 128
 	{
 		map gfx/weapons/shotgun/mark
-		//map models/weapons/rifle/lense
 		blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
 		rgbGen exactVertex
 	}

@@ -29,35 +29,6 @@ particles/weapons/grenade/impact_trail
 	}
 }
 
-models/weapons/grenade/pufffire
-{
-	ejector
-	{
-		particle
-		{
-			shader sync gfx/weapons/flamer/flame/flame02 gfx/weapons/flamer/flame/flame03 gfx/weapons/flamer/flame/flame04 gfx/weapons/flamer/flame/flame05 gfx/weapons/flamer/flame/flame06 gfx/weapons/flamer/flame/flame07 gfx/weapons/flamer/flame/flame08 gfx/weapons/flamer/flame/flame09 gfx/weapons/flamer/flame/flame10 gfx/weapons/flamer/flame/flame11 gfx/weapons/flamer/flame/flame12 gfx/weapons/flamer/flame/flame13 gfx/weapons/flamer/flame/flame14 gfx/weapons/flamer/flame/flame15 gfx/weapons/flamer/flame/flame16 gfx/weapons/flamer/flame/flame17 gfx/weapons/flamer/flame/flame18 gfx/weapons/flamer/flame/flame19 gfx/weapons/flamer/flame/flame20 gfx/weapons/flamer/flame/flame21 gfx/weapons/flamer/flame/flame22 gfx/weapons/flamer/flame/flame23 gfx/weapons/flamer/flame/flame24
-
-			displacement 0 0 0 ~3
-
-			velocityType static
-			velocityDir linear
-			velocityMagnitude 5
-			velocity 0 0 1 ~360
-
-			radius 0 5~75% 5~75%
-			alpha 0 1 0
-			rotation 0 ~360 -~2%
-			bounce 0
-
-			lifeTime 100
-		}
-
-		count 5
-		delay 0
-		period 50 - 0
-	}
-}
-
 particles/weapons/grenade/impact
 {
 	ejector
@@ -96,8 +67,6 @@ particles/weapons/grenade/impact
 	{
 		particle
 		{
-			//shader sync gfx/weapons/tracer/spark
-
 			displacement 0 0 0 ~0
 
 			velocityType static
@@ -116,7 +85,6 @@ particles/weapons/grenade/impact
 			rotation 0 0 50
 			lifeTime 180
 
-			//childSystem models/weapons/grenade/pufffire
 			childTrailSystem trails/weapons/grenade/puff
 		}
 
