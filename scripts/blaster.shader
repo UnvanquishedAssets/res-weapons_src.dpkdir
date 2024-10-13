@@ -32,6 +32,18 @@ gfx/weapons/blaster/bullet
 	}
 }
 
+gfx/weapons/blaster/impactspark
+{
+	cull disable
+	{
+		map gfx/weapons/blaster/bullet
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphaGen vertex
+		rgbGen vertex
+		depthFade 6
+	}
+}
+
 gfx/weapons/blaster/muzzleflash1
 {
 	cull none
