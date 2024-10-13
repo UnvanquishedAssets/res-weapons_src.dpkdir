@@ -105,12 +105,12 @@ particles/weapons/grenade/impact
 			velocityMagnitude 0
 			velocity 0 0 1 ~60
 
-			radius 0 0 500
+			radius 0 0 140
 			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
-			lifeTime 550
+			lifeTime 125
 		}
 		particle
 		{

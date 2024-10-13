@@ -145,7 +145,7 @@ particles/weapons/lcannon/impact_big
 	{
 		particle
 		{
-			shader sync gfx/weapons/grenade/flare
+			shader sync gfx/weapons/lcannon/flare
 
 			displacement 0 0 8 ~0
 

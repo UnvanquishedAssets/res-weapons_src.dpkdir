@@ -15,7 +15,8 @@ gfx/weapons/grenade/flare
 	imageMinDimension 128
 	{
 		map gfx/weapons/grenade/flare
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
+		depthFade 50
 	}
 }
 
