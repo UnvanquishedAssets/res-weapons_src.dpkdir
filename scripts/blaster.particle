@@ -33,37 +33,6 @@ particles/weapons/blaster/impact
 		delay 30~10
 		period 150 - ~10%
 	}
-	ejector
-	{
-		particle
-		{
-			shader sync gfx/weapons/blaster/bullet
-
-			displacement 0 0 0 0
-			normalDisplacement 0
-
-			velocityType normal
-			velocityDir linear
-			velocityMagnitude 0
-			velocity 0 0 0 ~110
-
-			accelerationType static
-			accelerationDir linear
-			accelerationMagnitude 0
-			acceleration 0 0 -1 ~10
-
-			radius 0 10 0
-			alpha 0 1 0
-			rotation 0 0 -
-			bounce 0
-
-			lifeTime 500
-		}
-
-		count 1
-		delay 0
-		period 10 - ~0%
-	}
 }
 
 particles/weapons/blaster/muzzleflash
