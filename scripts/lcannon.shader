@@ -32,6 +32,16 @@ gfx/weapons/lcannon/bullet
 	}
 }
 
+gfx/weapons/lcannon/flare
+{
+	cull none
+	imageMinDimension 128
+	{
+		map gfx/weapons/grenade/flare
+		blendfunc add
+	}
+}
+
 gfx/weapons/lcannon/shockwave_haze
 {
 	cull none
