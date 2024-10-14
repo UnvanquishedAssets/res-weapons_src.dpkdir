@@ -53,19 +53,6 @@ gfx/weapons/grenade/puff
 	}
 }
 
-gfx/weapons/grenade/shockwave_haze
-{
-	cull none
-	entityMergable
-	implicitMapGL1 gfx/transparent
-	imageMinDimension 128
-	{
-		stage heathazeMap
-		deformMagnitude 5
-		map gfx/weapons/grenade/shockwave_n
-	}
-}
-
 gfx/weapons/grenade/smoke
 {
 	cull none
