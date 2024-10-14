@@ -58,32 +58,6 @@ particles/weapons/firebomb/impact
 		delay 0
 		period 0 - ~0%
 	}
-
-	ejector // schockwave haze
-	{
-		particle
-		{
-			shader sync gfx/weapons/grenade/shockwave_haze
-
-			displacement 0 0 8 ~0
-
-			velocityType static
-			velocityDir linear
-			velocityMagnitude 0
-			velocity 0 0 1 ~60
-
-			radius 0 0 300
-			alpha 0 1 0
-			rotation 0 ~360 -
-			bounce 0
-
-			lifeTime 500
-		}
-
-		count 1
-		delay 0
-		period 0 - ~0%
-	}
 }
 
 particles/weapons/firebomb/sub

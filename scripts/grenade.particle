@@ -110,27 +110,9 @@ particles/weapons/grenade/impact
 			rotation 0 ~360 -
 			bounce 0
 
-			lifeTime 125
-		}
-		particle
-		{
-			shader sync gfx/weapons/grenade/shockwave_haze
-
-			displacement 0 0 8 ~0
-
-			velocityType static
-			velocityDir linear
-			velocityMagnitude 0
-			velocity 0 0 1 ~60
-
-			radius 0 0 500
-			alpha 0 1 0
-			rotation 0 ~360 -
-			bounce 0
-
 			dynamicLight 0 500 0 { 1 1 .8 }
 
-			lifeTime 500
+			lifeTime 125
 		}
 
 		count 1
