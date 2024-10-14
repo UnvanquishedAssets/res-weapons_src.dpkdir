@@ -51,7 +51,7 @@ gfx/weapons/lcannon/shockwave_haze
 	{
 		stage heathazeMap
 		deformMagnitude 1.7
-		map gfx/weapons/grenade/shockwave_n
+		map gfx/weapons/lcannon/shockwave_n
 	}
 }
 
@@ -64,7 +64,7 @@ gfx/weapons/lcannon/shockwave_haze_small
 	{
 		stage heathazeMap
 		deformMagnitude 0.4
-		map gfx/weapons/grenade/shockwave_n
+		map gfx/weapons/lcannon/shockwave_n
 	}
 }
 
