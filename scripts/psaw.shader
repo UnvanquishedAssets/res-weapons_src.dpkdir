@@ -21,14 +21,11 @@ models/weapons/psaw/flash
 	}
 }
 
-gfx/weapons/psaw/blue_particle
+gfx/weapons/psaw/sparks
 {
 	cull disable
-	imageMinDimension 128
 	{
-		map gfx/weapons/psaw/blue_particle
-		blendFunc GL_ONE GL_ONE
-		alphaGen vertex
-		rgbGen vertex
+		map gfx/weapons/psaw/sparks
+		blendfunc GL_ONE GL_ONE
 	}
 }

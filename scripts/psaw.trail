@@ -1,0 +1,11 @@
+trails/weapons/psaw/sparks
+{
+	beam
+	{
+		shader gfx/weapons/psaw/sparks
+		segments 1
+		segmentTime 75
+		width 1.5 1.5
+		alpha 1 1
+	}
+}
