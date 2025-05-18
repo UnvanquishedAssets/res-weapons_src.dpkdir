@@ -1,8 +1,8 @@
 models/missiles/rocket/rocket
 {
 	qer_editorImage models/missiles/rocket/rocket
+	// TODO: remove transparency/blending https://github.com/UnvanquishedAssets/res-weapons_src.dpkdir/issues/35
 	surfaceparm trans
-	cull none
 	imageMinDimension 128
 	{
 		diffuseMap models/missiles/rocket/rocket
