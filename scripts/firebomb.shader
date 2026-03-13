@@ -19,6 +19,7 @@ gfx/weapons/firebomb/fire
 
 	polygonOffset
 	cull none
+	entityMergable
 	sort nearest
 
 	imageMinDimension 64

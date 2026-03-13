@@ -1,4 +1,4 @@
-models/weapons/chaingun/backmetal
+models/weapons/chaingun/backmetal  // There's a typo in the model's materials
 {
 	qer_editorImage models/weapons/chaingun/blackmetal_d
 	imageMinDimension 128
